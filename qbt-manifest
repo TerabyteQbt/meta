@@ -425,7 +425,7 @@ link_checker,HEAD:e84bca4abdff8e3d11bfa83850c082ed66cc7838
         Metadata:archIndependent=true
         Metadata:buildType=COPY
         Metadata:prefix=release
-linter,HEAD:987b38c89a7ebd0193e827a5610193c6246f6596
+linter,HEAD:45269c4e9607450e804b82bd44c977bebb020fd0
     qbt_fringe.linter.main
         Metadata:archIndependent=true
         Metadata:prefix=main
