@@ -339,7 +339,18 @@
     mc.xml.resolver.xml.resolver
         Metadata:archIndependent=true
         Metadata:prefix=mc/xml-resolver/xml-resolver
-misc1,HEAD:a857f10b3e0b0d8595644c4069a6475aaf914afc
+misc1,HEAD:dffe6fa21d1b292b18ae5c3e29da249ac396f020
+    misc1.commons.concurrent.main
+        Metadata:archIndependent=true
+        Metadata:prefix=commons.concurrent/main
+        Strong:mc.org.slf4j.slf4j.api,HEAD
+        Strong:misc1.commons.core.main,HEAD
+        Weak:3p.gradle,HEAD
+    misc1.commons.concurrent.test
+        Metadata:archIndependent=true
+        Metadata:prefix=commons.concurrent/test
+        Strong:misc1.commons.concurrent.main,HEAD
+        Weak:3p.gradle,HEAD
     misc1.commons.core.main
         Metadata:archIndependent=true
         Metadata:prefix=commons.core/main
@@ -350,4 +361,14 @@ misc1,HEAD:a857f10b3e0b0d8595644c4069a6475aaf914afc
         Metadata:archIndependent=true
         Metadata:prefix=commons.core/test
         Strong:misc1.commons.core.main,HEAD
+        Weak:3p.gradle,HEAD
+    misc1.commons.options.main
+        Metadata:archIndependent=true
+        Metadata:prefix=commons.options/main
+        Strong:misc1.commons.core.main,HEAD
+        Weak:3p.gradle,HEAD
+    misc1.commons.options.test
+        Metadata:archIndependent=true
+        Metadata:prefix=commons.options/test
+        Strong:misc1.commons.options.main,HEAD
         Weak:3p.gradle,HEAD
