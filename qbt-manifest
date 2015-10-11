@@ -339,7 +339,7 @@
     mc.xml.resolver.xml.resolver
         Metadata:archIndependent=true
         Metadata:prefix=mc/xml-resolver/xml-resolver
-misc1,HEAD:dffe6fa21d1b292b18ae5c3e29da249ac396f020
+misc1,HEAD:da7b1687935b880d4ef02247a759c90e07468837
     misc1.commons.concurrent.main
         Metadata:archIndependent=true
         Metadata:prefix=commons.concurrent/main
@@ -371,6 +371,18 @@ misc1,HEAD:dffe6fa21d1b292b18ae5c3e29da249ac396f020
         Metadata:archIndependent=true
         Metadata:prefix=commons.options/test
         Strong:misc1.commons.options.main,HEAD
+        Weak:3p.gradle,HEAD
+    misc1.third_party_tools.main
+        Metadata:archIndependent=true
+        Metadata:prefix=third_party_tools/main
+        Strong:mc.org.apache.ivy.ivy,HEAD
+        Strong:mc.org.apache.maven.maven.artifact,HEAD
+        Strong:qbt.app.main,HEAD
+        Weak:3p.gradle,HEAD
+    misc1.third_party_tools.test
+        Metadata:archIndependent=true
+        Metadata:prefix=third_party_tools/test
+        Strong:misc1.third_party_tools.main,HEAD
         Weak:3p.gradle,HEAD
 qbt,HEAD:2f7926162d31a811f0bbdf806a1d3d6122a7a59e
     qbt.app.main
