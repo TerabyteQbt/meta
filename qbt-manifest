@@ -339,3 +339,15 @@
     mc.xml.resolver.xml.resolver
         Metadata:archIndependent=true
         Metadata:prefix=mc/xml-resolver/xml-resolver
+misc1,HEAD:a857f10b3e0b0d8595644c4069a6475aaf914afc
+    misc1.commons.core.main
+        Metadata:archIndependent=true
+        Metadata:prefix=commons.core/main
+        Strong:mc.com.google.guava.guava,HEAD
+        Strong:mc.org.apache.commons.commons.lang3,HEAD
+        Weak:3p.gradle,HEAD
+    misc1.commons.core.test
+        Metadata:archIndependent=true
+        Metadata:prefix=commons.core/test
+        Strong:misc1.commons.core.main,HEAD
+        Weak:3p.gradle,HEAD
