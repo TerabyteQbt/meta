@@ -339,6 +339,13 @@
     mc.xml.resolver.xml.resolver
         Metadata:archIndependent=true
         Metadata:prefix=mc/xml-resolver/xml-resolver
+link_checker,HEAD:5972ff681353c2632714654261f2414b0ae9e43b
+    link_checker.main
+        Metadata:archIndependent=true
+        Metadata:prefix=main
+        Strong:mc.org.ow2.asm.asm.all,HEAD
+        Strong:misc1.commons.options.main,HEAD
+        Weak:3p.gradle,HEAD
 misc1,HEAD:da7b1687935b880d4ef02247a759c90e07468837
     misc1.commons.concurrent.main
         Metadata:archIndependent=true
