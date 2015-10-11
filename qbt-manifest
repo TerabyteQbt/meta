@@ -562,3 +562,10 @@ wrapper_generator,HEAD:c6cec2dadd9060e08d26e9d26479dcc75b339c3f
         Metadata:archIndependent=true
         Metadata:buildType=COPY
         Metadata:prefix=release
+meta_tools,HEAD:2d874a32798ee017a73df210ce2f81428c815d9e
+    meta_tools.main
+        Metadata:archIndependent=true
+        Metadata:prefix=main
+        Strong:qbt.app.main,HEAD
+        Weak:3p.gradle,HEAD
+        Weak:qbt_fringe.linter.release,HEAD
