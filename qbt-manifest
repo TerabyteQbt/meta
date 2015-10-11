@@ -372,3 +372,39 @@ misc1,HEAD:dffe6fa21d1b292b18ae5c3e29da249ac396f020
         Metadata:prefix=commons.options/test
         Strong:misc1.commons.options.main,HEAD
         Weak:3p.gradle,HEAD
+qbt,HEAD:2f7926162d31a811f0bbdf806a1d3d6122a7a59e
+    qbt.app.main
+        Metadata:archIndependent=true
+        Metadata:prefix=app/main
+        Strong:mc.org.apache.httpcomponents.httpclient,HEAD
+        Strong:mc.org.codehaus.groovy.groovy.all,HEAD
+        Strong:misc1.commons.concurrent.main,HEAD
+        Strong:qbt.bin.main,HEAD
+        Weak:3p.gradle,HEAD
+    qbt.app.test
+        Metadata:archIndependent=true
+        Metadata:prefix=app/test
+        Strong:qbt.app.main,HEAD
+        Weak:3p.gradle,HEAD
+    qbt.bin.main
+        Metadata:archIndependent=true
+        Metadata:prefix=bin/main
+        Strong:mc.org.slf4j.slf4j.log4j12,HEAD
+        Strong:misc1.commons.options.main,HEAD
+        Strong:qbt.lib.main,HEAD
+        Weak:3p.gradle,HEAD
+    qbt.bin.test
+        Metadata:archIndependent=true
+        Metadata:prefix=bin/test
+        Strong:qbt.bin.main,HEAD
+        Weak:3p.gradle,HEAD
+    qbt.lib.main
+        Metadata:archIndependent=true
+        Metadata:prefix=lib/main
+        Strong:misc1.commons.core.main,HEAD
+        Weak:3p.gradle,HEAD
+    qbt.lib.test
+        Metadata:archIndependent=true
+        Metadata:prefix=lib/test
+        Strong:qbt.lib.main,HEAD
+        Weak:3p.gradle,HEAD
