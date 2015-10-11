@@ -424,12 +424,21 @@ link_checker,HEAD:284b874ad340b6eea12afa57405782ee3564265c
         Metadata:archIndependent=true
         Metadata:buildType=COPY
         Metadata:prefix=release
-linter,HEAD:aab27fe300b943d23de1454afe5bcbbbe3552b98
+linter,HEAD:e91c133822d706c7c4b6eb02d51688c03a92a42d
     qbt_fringe.linter.main
         Metadata:archIndependent=true
         Metadata:prefix=main
         Strong:misc1.commons.options.main,HEAD
         Weak:3p.gradle,HEAD
+    qbt_fringe.linter.prerelease
+        Metadata:archIndependent=true
+        Metadata:prefix=prerelease
+        Weak:qbt_fringe.linter.main,HEAD
+        Weak:qbt_fringe.wrapper_generator.release,HEAD
+    qbt_fringe.linter.release
+        Metadata:archIndependent=true
+        Metadata:buildType=COPY
+        Metadata:prefix=release
 misc1,HEAD:7cdb7e5b517c2c392cb01c2c864e5cc505a538aa
     misc1.commons.concurrent.main
         Metadata:archIndependent=true
