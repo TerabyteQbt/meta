@@ -339,19 +339,19 @@
     mc.xml.resolver.xml.resolver
         Metadata:archIndependent=true
         Metadata:prefix=mc/xml-resolver/xml-resolver
-link_checker,HEAD:d23e2bc5a231a2dc0c434212c0fa0ab8f5a7ec15
-    link_checker.main
+link_checker,HEAD:284b874ad340b6eea12afa57405782ee3564265c
+    qbt_fringe.link_checker.main
         Metadata:archIndependent=true
         Metadata:prefix=main
         Strong:mc.org.ow2.asm.asm.all,HEAD
         Strong:misc1.commons.options.main,HEAD
         Weak:3p.gradle,HEAD
-    link_checker.prerelease
+    qbt_fringe.link_checker.prerelease
         Metadata:archIndependent=true
         Metadata:prefix=prerelease
-        Weak:link_checker.main,HEAD
-        Weak:wrapper_generator.release,HEAD
-    link_checker.release
+        Weak:qbt_fringe.link_checker.main,HEAD
+        Weak:qbt_fringe.wrapper_generator.release,HEAD
+    qbt_fringe.link_checker.release
         Metadata:archIndependent=true
         Metadata:buildType=COPY
         Metadata:prefix=release
@@ -400,7 +400,7 @@ misc1,HEAD:da7b1687935b880d4ef02247a759c90e07468837
         Metadata:prefix=third_party_tools/test
         Strong:misc1.third_party_tools.main,HEAD
         Weak:3p.gradle,HEAD
-qbt,HEAD:e934b574ee8278c2d8a8ce3ae950dade02324fd5
+qbt,HEAD:e285202764f377a9127053f6c70ca2385dbe994e
     qbt.app.main
         Metadata:archIndependent=true
         Metadata:prefix=app/main
@@ -440,19 +440,19 @@ qbt,HEAD:e934b574ee8278c2d8a8ce3ae950dade02324fd5
         Metadata:archIndependent=true
         Metadata:prefix=release
         Weak:qbt.app.main,HEAD
-        Weak:wrapper_generator.release,HEAD
-wrapper_generator,HEAD:d78159ce32f50e15e1c86ed68b9e104dd083a25b
-    wrapper_generator.main
+        Weak:qbt_fringe.wrapper_generator.release,HEAD
+wrapper_generator,HEAD:78465828baa9576290316a133e6fae2242f44743
+    qbt_fringe.wrapper_generator.main
         Metadata:archIndependent=true
         Metadata:prefix=main
         Strong:mc.com.google.guava.guava,HEAD
         Weak:3p.gradle,HEAD
-    wrapper_generator.prerelease
+    qbt_fringe.wrapper_generator.prerelease
         Metadata:archIndependent=true
         Metadata:prefix=prerelease
-        Weak:wrapper_generator.main,HEAD
-        Weak:wrapper_generator.release,HEAD
-    wrapper_generator.release
+        Weak:qbt_fringe.wrapper_generator.main,HEAD
+        Weak:qbt_fringe.wrapper_generator.release,HEAD
+    qbt_fringe.wrapper_generator.release
         Metadata:archIndependent=true
         Metadata:buildType=COPY
         Metadata:prefix=release
