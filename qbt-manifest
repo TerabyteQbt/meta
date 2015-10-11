@@ -339,7 +339,7 @@
     mc.xml.resolver.xml.resolver
         Metadata:archIndependent=true
         Metadata:prefix=mc/xml-resolver/xml-resolver
-link_checker,HEAD:78e4a5247b32667d7f6f5d18f7706c25c007a0e8
+link_checker,HEAD:d23e2bc5a231a2dc0c434212c0fa0ab8f5a7ec15
     link_checker.main
         Metadata:archIndependent=true
         Metadata:prefix=main
@@ -351,6 +351,10 @@ link_checker,HEAD:78e4a5247b32667d7f6f5d18f7706c25c007a0e8
         Metadata:prefix=prerelease
         Weak:link_checker.main,HEAD
         Weak:wrapper_generator.release,HEAD
+    link_checker.release
+        Metadata:archIndependent=true
+        Metadata:buildType=COPY
+        Metadata:prefix=release
 misc1,HEAD:da7b1687935b880d4ef02247a759c90e07468837
     misc1.commons.concurrent.main
         Metadata:archIndependent=true
