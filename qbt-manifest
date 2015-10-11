@@ -1,4 +1,4 @@
-3p,HEAD:40daddbf8193b23472fd4e8a62d7696c0098c9fb
+3p,HEAD:9088e29e3d4f149b6a4eae0db08541b620cdef20
     3p.gradle
         Metadata:archIndependent=true
         Metadata:buildType=COPY
@@ -9,36 +9,45 @@
         Strong:mc.commons.httpclient.commons.httpclient,HEAD
         Strong:mc.org.apache.ant.ant,HEAD
         Strong:mc.org.apache.bcel.bcel,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.cglib.cglib.nodep
         Metadata:archIndependent=true
         Metadata:prefix=mc/cglib/cglib-nodep
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.google.code.findbugs.jsr305
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.google.code.findbugs/jsr305
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.google.code.gson.gson
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.google.code.gson/gson
         Strong:mc.junit.junit,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.google.dexmaker.dexmaker
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.google.dexmaker/dexmaker
         Strong:mc.com.google.dexmaker.dexmaker.dx,HEAD
         Strong:mc.junit.junit,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.google.dexmaker.dexmaker.dx
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.google.dexmaker/dexmaker-dx
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.google.guava.guava
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.google.guava/guava
         Strong:mc.com.google.code.findbugs.jsr305,HEAD
         Strong:mc.javax.inject.javax.inject,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.jcraft.jsch
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch
         Strong:mc.com.jcraft.jzlib,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.jcraft.jsch.agentproxy
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch.agentproxy
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.jcraft.jsch.agentproxy.connector.factory
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch.agentproxy.connector-factory
@@ -47,59 +56,72 @@
         Strong:mc.com.jcraft.jsch.agentproxy.sshagent,HEAD
         Strong:mc.com.jcraft.jsch.agentproxy.usocket.jna,HEAD
         Strong:mc.com.jcraft.jsch.agentproxy.usocket.nc,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.jcraft.jsch.agentproxy.core
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch.agentproxy.core
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.jcraft.jsch.agentproxy.jsch
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch.agentproxy.jsch
         Strong:mc.com.jcraft.jsch,HEAD
         Strong:mc.com.jcraft.jsch.agentproxy.core,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.jcraft.jsch.agentproxy.pageant
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch.agentproxy.pageant
         Strong:mc.com.jcraft.jsch.agentproxy.core,HEAD
         Strong:mc.net.java.dev.jna.jna,HEAD
         Strong:mc.net.java.dev.jna.platform,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.jcraft.jsch.agentproxy.sshagent
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch.agentproxy.sshagent
         Strong:mc.com.jcraft.jsch.agentproxy.core,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.jcraft.jsch.agentproxy.usocket.jna
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch.agentproxy.usocket-jna
         Strong:mc.com.jcraft.jsch.agentproxy.core,HEAD
         Strong:mc.net.java.dev.jna.jna,HEAD
         Strong:mc.net.java.dev.jna.platform,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.jcraft.jsch.agentproxy.usocket.nc
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch.agentproxy.usocket-nc
         Strong:mc.com.jcraft.jsch.agentproxy.core,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.jcraft.jzlib
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jzlib
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.commons.codec.commons.codec
         Metadata:archIndependent=true
         Metadata:prefix=mc/commons-codec/commons-codec
         Strong:mc.junit.junit,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.commons.collections.commons.collections
         Metadata:archIndependent=true
         Metadata:prefix=mc/commons-collections/commons-collections
         Strong:mc.junit.junit,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.commons.httpclient.commons.httpclient
         Metadata:archIndependent=true
         Metadata:prefix=mc/commons-httpclient/commons-httpclient
         Strong:mc.commons.codec.commons.codec,HEAD
         Strong:mc.commons.logging.commons.logging,HEAD
         Strong:mc.junit.junit,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.commons.io.commons.io
         Metadata:archIndependent=true
         Metadata:prefix=mc/commons-io/commons-io
         Strong:mc.junit.junit,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.commons.lang.commons.lang
         Metadata:archIndependent=true
         Metadata:prefix=mc/commons-lang/commons-lang
         Strong:mc.junit.junit,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.commons.logging.commons.logging
         Metadata:archIndependent=true
         Metadata:prefix=mc/commons-logging/commons-logging
@@ -107,10 +129,12 @@
         Strong:mc.junit.junit,HEAD
         Strong:mc.log4j.log4j,HEAD
         Strong:mc.logkit.logkit,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.commons.net.commons.net
         Metadata:archIndependent=true
         Metadata:prefix=mc/commons-net/commons-net
         Strong:mc.oro.oro,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.commons.vfs.commons.vfs
         Metadata:archIndependent=true
         Metadata:prefix=mc/commons-vfs/commons-vfs
@@ -123,29 +147,37 @@
         Strong:mc.org.apache.ant.ant,HEAD
         Strong:mc.oro.oro,HEAD
         Strong:mc.xml.apis.xml.apis,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.hsqldb.hsqldb
         Metadata:archIndependent=true
         Metadata:prefix=mc/hsqldb/hsqldb
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.jakarta.regexp.jakarta.regexp
         Metadata:archIndependent=true
         Metadata:prefix=mc/jakarta-regexp/jakarta-regexp
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.javax.activation.activation
         Metadata:archIndependent=true
         Metadata:prefix=mc/javax.activation/activation
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.javax.inject.javax.inject
         Metadata:archIndependent=true
         Metadata:prefix=mc/javax.inject/javax.inject
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.javax.mail.mail
         Metadata:archIndependent=true
         Metadata:prefix=mc/javax.mail/mail
         Strong:mc.javax.activation.activation,HEAD
         Strong:mc.junit.junit,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.javax.servlet.servlet.api
         Metadata:archIndependent=true
         Metadata:prefix=mc/javax.servlet/servlet-api
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.jaxen.jaxen
         Metadata:archIndependent=true
         Metadata:prefix=mc/jaxen/jaxen
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.jdom.jdom
         Metadata:archIndependent=true
         Metadata:prefix=mc/jdom/jdom
@@ -154,10 +186,12 @@
         Strong:mc.xalan.xalan,HEAD
         Strong:mc.xerces.xercesImpl,HEAD
         Strong:mc.xml.apis.xml.apis,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.junit.junit
         Metadata:archIndependent=true
         Metadata:prefix=mc/junit/junit
         Strong:mc.org.hamcrest.hamcrest.core,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.log4j.apache.log4j.extras
         Metadata:archIndependent=true
         Metadata:prefix=mc/log4j/apache-log4j-extras
@@ -165,6 +199,7 @@
         Strong:mc.junit.junit,HEAD
         Strong:mc.log4j.log4j,HEAD
         Strong:mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.log4j.log4j
         Metadata:archIndependent=true
         Metadata:prefix=mc/log4j/log4j
@@ -172,16 +207,20 @@
         Strong:mc.junit.junit,HEAD
         Strong:mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec,HEAD
         Strong:mc.oro.oro,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.logkit.logkit
         Metadata:archIndependent=true
         Metadata:prefix=mc/logkit/logkit
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.net.java.dev.jna.jna
         Metadata:archIndependent=true
         Metadata:prefix=mc/net.java.dev.jna/jna
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.net.java.dev.jna.platform
         Metadata:archIndependent=true
         Metadata:prefix=mc/net.java.dev.jna/platform
         Strong:mc.net.java.dev.jna.jna,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.apache.ant.ant
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.ant/ant
@@ -189,10 +228,12 @@
         Strong:mc.org.apache.ant.ant.launcher,HEAD
         Strong:mc.xerces.xercesImpl,HEAD
         Strong:mc.xml.apis.xml.apis,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.apache.ant.ant.launcher
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.ant/ant-launcher
         Strong:mc.junit.junit,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.apache.ant.ant.nodeps
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.ant/ant-nodeps
@@ -200,11 +241,13 @@
         Strong:mc.org.apache.ant.ant,HEAD
         Strong:mc.xerces.xercesImpl,HEAD
         Strong:mc.xml.apis.xml.apis,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.apache.ant.ant.testutil
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.ant/ant-testutil
         Strong:mc.junit.junit,HEAD
         Strong:mc.org.apache.ant.ant,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.apache.ant.ant.trax
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.ant/ant-trax
@@ -213,19 +256,23 @@
         Strong:mc.xalan.xalan,HEAD
         Strong:mc.xerces.xercesImpl,HEAD
         Strong:mc.xml.apis.xml.apis,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.apache.bcel.bcel
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.bcel/bcel
         Strong:mc.jakarta.regexp.jakarta.regexp,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.apache.commons.commons.lang3
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.commons/commons-lang3
         Strong:mc.commons.io.commons.io,HEAD
         Strong:mc.junit.junit,HEAD
         Strong:mc.org.easymock.easymock,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.geronimo.specs/geronimo-jms_1.1_spec
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.apache.httpcomponents.httpclient
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.httpcomponents/httpclient
@@ -234,12 +281,14 @@
         Strong:mc.junit.junit,HEAD
         Strong:mc.org.apache.httpcomponents.httpcore,HEAD
         Strong:mc.org.mockito.mockito.core,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.apache.httpcomponents.httpcore
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.httpcomponents/httpcore
         Strong:mc.commons.logging.commons.logging,HEAD
         Strong:mc.junit.junit,HEAD
         Strong:mc.org.mockito.mockito.core,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.apache.ivy.ivy
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.ivy/ivy
@@ -262,24 +311,30 @@
         Strong:mc.oro.oro,HEAD
         Strong:mc.xerces.xercesImpl,HEAD
         Strong:mc.xerces.xmlParserAPIs,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.apache.maven.maven.artifact
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.maven/maven-artifact
         Strong:mc.junit.junit,HEAD
         Strong:mc.org.codehaus.plexus.plexus.utils,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.bouncycastle.bcpg.jdk14
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.bouncycastle/bcpg-jdk14
         Strong:mc.org.bouncycastle.bcprov.jdk14,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.bouncycastle.bcprov.jdk14
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.bouncycastle/bcprov-jdk14
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.codehaus.groovy.groovy.all
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.codehaus.groovy/groovy-all
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.codehaus.plexus.plexus.utils
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.codehaus.plexus/plexus-utils
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.easymock.easymock
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.easymock/easymock
@@ -287,58 +342,72 @@
         Strong:mc.com.google.dexmaker.dexmaker,HEAD
         Strong:mc.junit.junit,HEAD
         Strong:mc.org.objenesis.objenesis,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.hamcrest.hamcrest.core
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.hamcrest/hamcrest-core
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.mockito.mockito.core
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.mockito/mockito-core
         Strong:mc.org.apache.ant.ant,HEAD
         Strong:mc.org.hamcrest.hamcrest.core,HEAD
         Strong:mc.org.objenesis.objenesis,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.objenesis.objenesis
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.objenesis/objenesis
         Strong:mc.junit.junit,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.ow2.asm.asm.all
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.ow2.asm/asm-all
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.slf4j.slf4j.api
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.slf4j/slf4j-api
         Strong:mc.junit.junit,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.slf4j.slf4j.log4j12
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.slf4j/slf4j-log4j12
         Strong:mc.junit.junit,HEAD
         Strong:mc.log4j.log4j,HEAD
         Strong:mc.org.slf4j.slf4j.api,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.oro.oro
         Metadata:archIndependent=true
         Metadata:prefix=mc/oro/oro
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.saxpath.saxpath
         Metadata:archIndependent=true
         Metadata:prefix=mc/saxpath/saxpath
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.xalan.xalan
         Metadata:archIndependent=true
         Metadata:prefix=mc/xalan/xalan
         Strong:mc.org.apache.bcel.bcel,HEAD
         Strong:mc.xerces.xercesImpl,HEAD
         Strong:mc.xml.apis.xml.apis,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.xerces.xercesImpl
         Metadata:archIndependent=true
         Metadata:prefix=mc/xerces/xercesImpl
         Strong:mc.xml.apis.xml.apis,HEAD
         Strong:mc.xml.resolver.xml.resolver,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.xerces.xmlParserAPIs
         Metadata:archIndependent=true
         Metadata:prefix=mc/xerces/xmlParserAPIs
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.xml.apis.xml.apis
         Metadata:archIndependent=true
         Metadata:prefix=mc/xml-apis/xml-apis
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.xml.resolver.xml.resolver
         Metadata:archIndependent=true
         Metadata:prefix=mc/xml-resolver/xml-resolver
+        Weak:qbt_fringe.link_checker.release,HEAD
 link_checker,HEAD:284b874ad340b6eea12afa57405782ee3564265c
     qbt_fringe.link_checker.main
         Metadata:archIndependent=true
