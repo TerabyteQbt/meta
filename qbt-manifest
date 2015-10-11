@@ -384,7 +384,7 @@ misc1,HEAD:da7b1687935b880d4ef02247a759c90e07468837
         Metadata:prefix=third_party_tools/test
         Strong:misc1.third_party_tools.main,HEAD
         Weak:3p.gradle,HEAD
-qbt,HEAD:2f7926162d31a811f0bbdf806a1d3d6122a7a59e
+qbt,HEAD:e934b574ee8278c2d8a8ce3ae950dade02324fd5
     qbt.app.main
         Metadata:archIndependent=true
         Metadata:prefix=app/main
@@ -420,6 +420,11 @@ qbt,HEAD:2f7926162d31a811f0bbdf806a1d3d6122a7a59e
         Metadata:prefix=lib/test
         Strong:qbt.lib.main,HEAD
         Weak:3p.gradle,HEAD
+    qbt.release
+        Metadata:archIndependent=true
+        Metadata:prefix=release
+        Weak:qbt.app.main,HEAD
+        Weak:wrapper_generator.release,HEAD
 wrapper_generator,HEAD:d78159ce32f50e15e1c86ed68b9e104dd083a25b
     wrapper_generator.main
         Metadata:archIndependent=true
