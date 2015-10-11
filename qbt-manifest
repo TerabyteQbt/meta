@@ -420,3 +420,9 @@ qbt,HEAD:2f7926162d31a811f0bbdf806a1d3d6122a7a59e
         Metadata:prefix=lib/test
         Strong:qbt.lib.main,HEAD
         Weak:3p.gradle,HEAD
+wrapper_generator,HEAD:7a43e58ee59820391c6cf92e52e1faf8f5910814
+    wrapper_generator.main
+        Metadata:archIndependent=true
+        Metadata:prefix=main
+        Strong:mc.com.google.guava.guava,HEAD
+        Weak:3p.gradle,HEAD
