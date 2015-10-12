@@ -408,7 +408,7 @@
         Metadata:archIndependent=true
         Metadata:prefix=mc/xml-resolver/xml-resolver
         Weak:qbt_fringe.link_checker.release,HEAD
-link_checker,HEAD:e84bca4abdff8e3d11bfa83850c082ed66cc7838
+link_checker,HEAD:72fbc8c5d111593a12f3886b9b04eb932524f6d4
     qbt_fringe.link_checker.main
         Metadata:archIndependent=true
         Metadata:prefix=main
@@ -425,7 +425,7 @@ link_checker,HEAD:e84bca4abdff8e3d11bfa83850c082ed66cc7838
         Metadata:archIndependent=true
         Metadata:buildType=COPY
         Metadata:prefix=release
-linter,HEAD:45269c4e9607450e804b82bd44c977bebb020fd0
+linter,HEAD:421a90aaaaa1c0dc3c0944fb37e1cc9ede0a2389
     qbt_fringe.linter.main
         Metadata:archIndependent=true
         Metadata:prefix=main
@@ -441,7 +441,7 @@ linter,HEAD:45269c4e9607450e804b82bd44c977bebb020fd0
         Metadata:archIndependent=true
         Metadata:buildType=COPY
         Metadata:prefix=release
-meta_tools,HEAD:6427aa6deb3ef9350576ba85d432183fe68a3dc4
+meta_tools,HEAD:514ed1d1b82b2beab06aac61dcc4d72d66620d46
     meta_tools.main
         Metadata:archIndependent=true
         Metadata:prefix=main
@@ -453,7 +453,7 @@ meta_tools,HEAD:6427aa6deb3ef9350576ba85d432183fe68a3dc4
         Metadata:prefix=release
         Weak:meta_tools.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-misc1,HEAD:9aa098d705b41a15e0980f6e59bc05cfe8360386
+misc1,HEAD:e86c2315e1843290f5e257a02eff0e091f24d7fb
     misc1.commons.concurrent.main
         Metadata:archIndependent=true
         Metadata:prefix=commons.concurrent/main
@@ -511,7 +511,7 @@ misc1,HEAD:9aa098d705b41a15e0980f6e59bc05cfe8360386
         Strong:misc1.third_party_tools.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
-qbt,HEAD:b33af452f40f089f758ce30fa60983f4d0e530d6
+qbt,HEAD:1976e22f367530ab2beb54bb96fb227a784bc05f
     qbt.app.main
         Metadata:archIndependent=true
         Metadata:prefix=app/main
@@ -558,7 +558,7 @@ qbt,HEAD:b33af452f40f089f758ce30fa60983f4d0e530d6
         Metadata:prefix=release
         Weak:qbt.app.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-wrapper_generator,HEAD:c6cec2dadd9060e08d26e9d26479dcc75b339c3f
+wrapper_generator,HEAD:2d6662a67dda948edb9bc74309abc5de76e3bd92
     qbt_fringe.wrapper_generator.main
         Metadata:archIndependent=true
         Metadata:prefix=main
