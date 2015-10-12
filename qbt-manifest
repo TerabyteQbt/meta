@@ -516,7 +516,7 @@ misc1,HEAD:0a951ad3be7cccb34a1019d1946e46f87e2194a1
         Strong:misc1.third_party_tools.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
-qbt,HEAD:ac89b38de537fba6898b290535d641a7faf2f4b5
+qbt,HEAD:aaf9e325144867890d4e632e0126fb0872709ae9
     qbt.app.main
         Metadata:archIndependent=true
         Metadata:prefix=app/main
@@ -549,6 +549,8 @@ qbt,HEAD:ac89b38de537fba6898b290535d641a7faf2f4b5
     qbt.docs
         Metadata:archIndependent=true
         Metadata:prefix=docs
+        Strong:mc.org.commonjava.googlecode.markdown4j.markdown4j,HEAD
+        Weak:qbt_fringe.linter.release,HEAD
     qbt.lib.main
         Metadata:archIndependent=true
         Metadata:prefix=lib/main
