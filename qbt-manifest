@@ -441,7 +441,7 @@ linter,HEAD:45269c4e9607450e804b82bd44c977bebb020fd0
         Metadata:archIndependent=true
         Metadata:buildType=COPY
         Metadata:prefix=release
-meta_tools,HEAD:6d0abeee5da9f5348c6e2ac354371312778b8137
+meta_tools,HEAD:e0c4cdfd4b11709f54460d36573b3145f44e272c
     meta_tools.main
         Metadata:archIndependent=true
         Metadata:prefix=main
@@ -453,7 +453,7 @@ meta_tools,HEAD:6d0abeee5da9f5348c6e2ac354371312778b8137
         Metadata:prefix=release
         Weak:meta_tools.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-misc1,HEAD:d1e415b81ba7d37c47e110c198f5b90b4d180d9d
+misc1,HEAD:e7be0c829912d7a14881ed4fec1b257840c1854e
     misc1.commons.concurrent.main
         Metadata:archIndependent=true
         Metadata:prefix=commons.concurrent/main
@@ -511,7 +511,7 @@ misc1,HEAD:d1e415b81ba7d37c47e110c198f5b90b4d180d9d
         Strong:misc1.third_party_tools.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
-qbt,HEAD:9e1ca0cfb5c7d646aef20bce3bc9beba6def8bf9
+qbt,HEAD:ab37dcba174809ce154f3de646ba552a8306dc5d
     qbt.app.main
         Metadata:archIndependent=true
         Metadata:prefix=app/main
