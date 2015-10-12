@@ -1,4 +1,4 @@
-3p,HEAD:9088e29e3d4f149b6a4eae0db08541b620cdef20
+3p,HEAD:7c67c815508b967d4d9a9d2cee880dfc972b9904
     3p.gradle
         Metadata:archIndependent=true
         Metadata:buildType=COPY
@@ -334,6 +334,11 @@
     mc.org.codehaus.plexus.plexus.utils
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.codehaus.plexus/plexus-utils
+        Weak:qbt_fringe.link_checker.release,HEAD
+    mc.org.commonjava.googlecode.markdown4j.markdown4j
+        Metadata:archIndependent=true
+        Metadata:prefix=mc/org.commonjava.googlecode.markdown4j/markdown4j
+        Strong:mc.junit.junit,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.easymock.easymock
         Metadata:archIndependent=true
