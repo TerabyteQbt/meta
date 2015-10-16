@@ -408,6 +408,19 @@
         Metadata:archIndependent=true
         Metadata:prefix=mc/xml-resolver/xml-resolver
         Weak:qbt_fringe.link_checker.release,HEAD
+eclipse_gen,HEAD:cb5fb8b2f78ac89b6f9aba83a02b180c0024a3a6
+    qbt_fringe.eclipse_gen.simple.main
+        Metadata:archIndependent=true
+        Metadata:prefix=simple/main
+        Strong:mc.com.google.guava.guava,HEAD
+        Strong:qbt.lib.main,HEAD
+        Weak:3p.gradle,HEAD
+        Weak:qbt_fringe.linter.release,HEAD
+    qbt_fringe.eclipse_gen.simple.release
+        Metadata:archIndependent=true
+        Metadata:prefix=simple/release
+        Weak:qbt_fringe.eclipse_gen.simple.main,HEAD
+        Weak:qbt_fringe.wrapper_generator.release,HEAD
 link_checker,HEAD:72fbc8c5d111593a12f3886b9b04eb932524f6d4
     qbt_fringe.link_checker.main
         Metadata:archIndependent=true
