@@ -454,7 +454,7 @@ linter,HEAD:421a90aaaaa1c0dc3c0944fb37e1cc9ede0a2389
         Metadata:archIndependent=true
         Metadata:buildType=COPY
         Metadata:prefix=release
-meta_tools,HEAD:e2e20a341fe5e75b70ad1f0dd2a45ba82a4be38d
+meta_tools,HEAD:f35ccbdcaeb10857ced9535a5163977d219252ae
     meta_tools.main
         Metadata:archIndependent=true
         Metadata:prefix=main
