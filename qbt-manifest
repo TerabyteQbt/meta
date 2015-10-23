@@ -471,7 +471,7 @@ meta_tools,HEAD:61c618e6892af4a6f3bfa59e8ca8db929d6f9543
         Metadata:prefix=release
         Weak:meta_tools.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-misc1,HEAD:d3a3c9362fff2c2dc542433834b02e805c6eb88b
+misc1,HEAD:79bb4cbc7edf4dd8173fc8974064bddea7badcfd
     misc1.commons.concurrent.main
         Metadata:archIndependent=true
         Metadata:prefix=commons.concurrent/main
