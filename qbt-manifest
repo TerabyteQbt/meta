@@ -1,4 +1,4 @@
-3p,HEAD:9088e29e3d4f149b6a4eae0db08541b620cdef20
+3p,HEAD:7c67c815508b967d4d9a9d2cee880dfc972b9904
     3p.gradle
         Metadata:archIndependent=true
         Metadata:buildType=COPY
@@ -335,6 +335,11 @@
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.codehaus.plexus/plexus-utils
         Weak:qbt_fringe.link_checker.release,HEAD
+    mc.org.commonjava.googlecode.markdown4j.markdown4j
+        Metadata:archIndependent=true
+        Metadata:prefix=mc/org.commonjava.googlecode.markdown4j/markdown4j
+        Strong:mc.junit.junit,HEAD
+        Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.easymock.easymock
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.easymock/easymock
@@ -524,7 +529,7 @@ misc1,HEAD:211b9fc7b3ad0bc2a503831e015a6fadef213785
         Strong:misc1.third_party_tools.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
-qbt,HEAD:7eb7c1d39401f3c014ce4421cb8cb9ed3559cf67
+qbt,HEAD:f5895615ccbd06aa1327fba2672382dadacb52de
     qbt.app.main
         Metadata:archIndependent=true
         Metadata:prefix=app/main
@@ -554,6 +559,11 @@ qbt,HEAD:7eb7c1d39401f3c014ce4421cb8cb9ed3559cf67
         Strong:qbt.bin.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
+    qbt.docs
+        Metadata:archIndependent=true
+        Metadata:prefix=docs
+        Strong:mc.org.commonjava.googlecode.markdown4j.markdown4j,HEAD
+        Weak:qbt_fringe.linter.release,HEAD
     qbt.lib.main
         Metadata:archIndependent=true
         Metadata:prefix=lib/main
@@ -566,6 +576,11 @@ qbt,HEAD:7eb7c1d39401f3c014ce4421cb8cb9ed3559cf67
         Strong:qbt.lib.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
+    qbt.qbtbuildtool.com
+        Metadata:archIndependent=true
+        Metadata:prefix=qbtbuildtool.com
+        Strong:qbt.docs,HEAD
+        Weak:meta_tools.release,HEAD
     qbt.release
         Metadata:archIndependent=true
         Metadata:prefix=release
