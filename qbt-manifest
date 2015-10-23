@@ -421,7 +421,7 @@ eclipse_gen,HEAD:cb5fb8b2f78ac89b6f9aba83a02b180c0024a3a6
         Metadata:prefix=simple/release
         Weak:qbt_fringe.eclipse_gen.simple.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-link_checker,HEAD:f5c69f63326496cacf42b8119912f089cd403535
+link_checker,HEAD:ff84e96ddad349b74f269c16642ad3d2f33c7424
     qbt_fringe.link_checker.main
         Metadata:archIndependent=true
         Metadata:prefix=main
