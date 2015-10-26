@@ -529,10 +529,11 @@ misc1,HEAD:b533750706fec0e58be76a61329945c61c281d4c
         Strong:misc1.third_party_tools.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
-qbt,HEAD:bd71cc4bce24ccf34555ee66a4420fc1e4b93e6d
+qbt,HEAD:641135756d9a3a00b29bd65c34ba8e94295e97c8
     qbt.app.main
         Metadata:archIndependent=true
         Metadata:prefix=app/main
+        Strong:mc.com.google.code.gson.gson,HEAD
         Strong:mc.org.apache.httpcomponents.httpclient,HEAD
         Strong:mc.org.codehaus.groovy.groovy.all,HEAD
         Strong:misc1.commons.concurrent.main,HEAD
