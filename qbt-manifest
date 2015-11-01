@@ -529,7 +529,7 @@ misc1,HEAD:f56fe72c4f9651641088091c843515dbbd23bbce
         Strong:misc1.third_party_tools.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
-qbt,HEAD:098e2bbbe1d7484df254082b3df62c35eddcd036
+qbt,HEAD:f80c14cb8b434537039ded26fc2cff185b295896
     qbt.app.main
         Metadata:archIndependent=true
         Metadata:prefix=app/main
