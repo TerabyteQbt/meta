@@ -426,6 +426,60 @@ eclipse_gen,HEAD:13216ca9f479cfa045567e447072f54e75505579
         Metadata:prefix=simple/release
         Weak:qbt_fringe.eclipse_gen.simple.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
+example_packages,HEAD:9498777ef1a27fcfe67b87fda736cffce7024ec7
+    example.java.gradle.app.main
+        Metadata:archIndependent=true
+        Metadata:prefix=java/gradle/app/main
+        Strong:example.java.gradle.lib.main,HEAD
+        Weak:3p.gradle,HEAD
+        Weak:qbt_fringe.linter.release,HEAD
+        Weak:qbt_fringe.wrapper_generator.release,HEAD
+    example.java.gradle.app.test
+        Metadata:archIndependent=true
+        Metadata:prefix=java/gradle/app/test
+        Strong:example.java.gradle.app.main,HEAD
+        Strong:mc.junit.junit,HEAD
+        Weak:3p.gradle,HEAD
+        Weak:qbt_fringe.linter.release,HEAD
+    example.java.gradle.lib.main
+        Metadata:archIndependent=true
+        Metadata:prefix=java/gradle/lib/main
+        Weak:3p.gradle,HEAD
+        Weak:qbt_fringe.linter.release,HEAD
+    example.java.gradle.lib.test
+        Metadata:archIndependent=true
+        Metadata:prefix=java/gradle/lib/test
+        Strong:example.java.gradle.lib.main,HEAD
+        Strong:mc.com.google.guava.guava,HEAD
+        Strong:mc.junit.junit,HEAD
+        Weak:3p.gradle,HEAD
+        Weak:qbt_fringe.linter.release,HEAD
+    example.java.simple.app.main
+        Metadata:archIndependent=true
+        Metadata:prefix=java/simple/app/main
+        Strong:example.java.simple.lib.main,HEAD
+        Weak:3p.gradle,HEAD
+        Weak:qbt_fringe.linter.release,HEAD
+        Weak:qbt_fringe.wrapper_generator.release,HEAD
+    example.java.simple.app.test
+        Metadata:archIndependent=true
+        Metadata:prefix=java/simple/app/test
+        Strong:example.java.simple.app.main,HEAD
+        Strong:mc.junit.junit,HEAD
+        Weak:3p.gradle,HEAD
+        Weak:qbt_fringe.linter.release,HEAD
+    example.java.simple.lib.main
+        Metadata:archIndependent=true
+        Metadata:prefix=java/simple/lib/main
+        Weak:3p.gradle,HEAD
+        Weak:qbt_fringe.linter.release,HEAD
+    example.java.simple.lib.test
+        Metadata:archIndependent=true
+        Metadata:prefix=java/simple/lib/test
+        Strong:example.java.simple.lib.main,HEAD
+        Strong:mc.junit.junit,HEAD
+        Weak:3p.gradle,HEAD
+        Weak:qbt_fringe.linter.release,HEAD
 link_checker,HEAD:c54e021341d43897406f777ab3b1d21112a282de
     qbt_fringe.link_checker.main
         Metadata:archIndependent=true
