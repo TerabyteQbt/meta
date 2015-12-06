@@ -1004,7 +1004,6 @@
             "pbt.bin": {
                 "metadata": {
                     "archIndependent": true,
-                    "buildType": "COPY",
                     "prefix": "bin"
                 },
                 "normalDeps": {
@@ -1014,7 +1013,6 @@
             "pbt.lib": {
                 "metadata": {
                     "archIndependent": true,
-                    "buildType": "COPY",
                     "prefix": "lib"
                 }
             },
@@ -1028,7 +1026,7 @@
                 }
             }
         },
-        "version": "b897f7359e1d780f58ac847dcbe718f7af9c89b5"
+        "version": "df84bad7d18f3286a27bc555ff07cb5ff319e12c"
     },
     "qbt": {
         "packages": {
