@@ -529,7 +529,7 @@ misc1,HEAD:f56fe72c4f9651641088091c843515dbbd23bbce
         Strong:misc1.third_party_tools.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
-pbt,HEAD:fbfaecd169c7e8f99be51f5d6984a6259c14969d
+pbt,HEAD:b25d4c31ebc54d80a25e96c2479508d4a52421dc
     pbt.bin
         Metadata:archIndependent=true
         Metadata:buildType=COPY
