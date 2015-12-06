@@ -529,15 +529,13 @@ misc1,HEAD:f56fe72c4f9651641088091c843515dbbd23bbce
         Strong:misc1.third_party_tools.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
-pbt,HEAD:b897f7359e1d780f58ac847dcbe718f7af9c89b5
+pbt,HEAD:df84bad7d18f3286a27bc555ff07cb5ff319e12c
     pbt.bin
         Metadata:archIndependent=true
-        Metadata:buildType=COPY
         Metadata:prefix=bin
         Strong:pbt.lib,HEAD
     pbt.lib
         Metadata:archIndependent=true
-        Metadata:buildType=COPY
         Metadata:prefix=lib
     pbt.release
         Metadata:archIndependent=true
