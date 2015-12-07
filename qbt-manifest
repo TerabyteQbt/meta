@@ -459,7 +459,7 @@ linter,HEAD:da5ec25d6ef484354b7d7a1705268ff54d793351
         Metadata:archIndependent=true
         Metadata:buildType=COPY
         Metadata:prefix=release
-meta_tools,HEAD:9392080d8f55556b79c9caf08c0865225b85036d
+meta_tools,HEAD:0bdc488948cd2cbbf784036f25c9e7efd9fe3645
     meta_tools.main
         Metadata:archIndependent=true
         Metadata:prefix=main
@@ -541,7 +541,7 @@ pbt,HEAD:df84bad7d18f3286a27bc555ff07cb5ff319e12c
         Metadata:archIndependent=true
         Metadata:prefix=release
         Strong:pbt.bin,HEAD
-qbt,HEAD:094286c256fb68b856d84558e3688b4f5d50fd14
+qbt,HEAD:592279c974eb0e5570d7e0b2727edfdc1c2f81ab
     qbt.app.main
         Metadata:archIndependent=true
         Metadata:prefix=app/main
