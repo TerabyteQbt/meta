@@ -413,7 +413,7 @@
         Metadata:archIndependent=true
         Metadata:prefix=mc/xml-resolver/xml-resolver
         Weak:qbt_fringe.link_checker.release,HEAD
-eclipse_gen,HEAD:13216ca9f479cfa045567e447072f54e75505579
+eclipse_gen,HEAD:17986dfa7b3db409f716236375a0bc8094ecfb83
     qbt_fringe.eclipse_gen.simple.main
         Metadata:archIndependent=true
         Metadata:prefix=simple/main
@@ -426,7 +426,7 @@ eclipse_gen,HEAD:13216ca9f479cfa045567e447072f54e75505579
         Metadata:prefix=simple/release
         Weak:qbt_fringe.eclipse_gen.simple.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-link_checker,HEAD:c54e021341d43897406f777ab3b1d21112a282de
+link_checker,HEAD:b8362dbebab0e00f36cb49e1881d1ed1b1c67d6a
     qbt_fringe.link_checker.main
         Metadata:archIndependent=true
         Metadata:prefix=main
@@ -443,7 +443,7 @@ link_checker,HEAD:c54e021341d43897406f777ab3b1d21112a282de
         Metadata:archIndependent=true
         Metadata:buildType=COPY
         Metadata:prefix=release
-linter,HEAD:da5ec25d6ef484354b7d7a1705268ff54d793351
+linter,HEAD:33fa71414907d65383220ce48b728d5c530f96e8
     qbt_fringe.linter.main
         Metadata:archIndependent=true
         Metadata:prefix=main
@@ -459,7 +459,7 @@ linter,HEAD:da5ec25d6ef484354b7d7a1705268ff54d793351
         Metadata:archIndependent=true
         Metadata:buildType=COPY
         Metadata:prefix=release
-meta_tools,HEAD:329e7985b66c554cad4fb50fba8a7bad253d9b88
+meta_tools,HEAD:3e31ec320f33e01e6963b6ecec1d2f9281e187a9
     meta_tools.main
         Metadata:archIndependent=true
         Metadata:prefix=main
@@ -471,7 +471,7 @@ meta_tools,HEAD:329e7985b66c554cad4fb50fba8a7bad253d9b88
         Metadata:prefix=release
         Weak:meta_tools.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-misc1,HEAD:d97c9f55e47990534624eea8d862f65cd377415f
+misc1,HEAD:7ae3b63bef534359d0cc2788de3ff0b0c7f16e38
     misc1.commons.concurrent.main
         Metadata:archIndependent=true
         Metadata:prefix=commons.concurrent/main
@@ -541,7 +541,7 @@ pbt,HEAD:df84bad7d18f3286a27bc555ff07cb5ff319e12c
         Metadata:archIndependent=true
         Metadata:prefix=release
         Strong:pbt.bin,HEAD
-qbt,HEAD:a7f4bedd886d128cc5c41b381efb3d9481a47705
+qbt,HEAD:529ed9cf127947dd6a01520b5cb1bd686fccdf81
     qbt.app.main
         Metadata:archIndependent=true
         Metadata:prefix=app/main
@@ -599,7 +599,7 @@ qbt,HEAD:a7f4bedd886d128cc5c41b381efb3d9481a47705
         Metadata:prefix=release
         Weak:qbt.app.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-wrapper_generator,HEAD:e41f89c845314240ac8272c63966866006439e44
+wrapper_generator,HEAD:9322ba0164d17939131d2d1d8944d79b76c81a14
     qbt_fringe.wrapper_generator.main
         Metadata:archIndependent=true
         Metadata:prefix=main
