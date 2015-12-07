@@ -443,7 +443,7 @@ link_checker,HEAD:b8362dbebab0e00f36cb49e1881d1ed1b1c67d6a
         Metadata:archIndependent=true
         Metadata:buildType=COPY
         Metadata:prefix=release
-linter,HEAD:33fa71414907d65383220ce48b728d5c530f96e8
+linter,HEAD:199057814d173affbf73ab3b2773cbf36081a6e5
     qbt_fringe.linter.main
         Metadata:archIndependent=true
         Metadata:prefix=main
