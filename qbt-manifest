@@ -463,7 +463,7 @@ meta_tools,HEAD:3e31ec320f33e01e6963b6ecec1d2f9281e187a9
     meta_tools.main
         Metadata:archIndependent=true
         Metadata:prefix=main
-        Strong:qbt.app.main,HEAD
+        Strong:qbt.app.cmd,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
     meta_tools.release
@@ -541,7 +541,12 @@ pbt,HEAD:df84bad7d18f3286a27bc555ff07cb5ff319e12c
         Metadata:archIndependent=true
         Metadata:prefix=release
         Strong:pbt.bin,HEAD
-qbt,HEAD:6fffeca461a860481619c3474a868277502ccd04
+qbt,HEAD:c709af4da2261e0fa2ad2a975dabf5b72b1d4285
+    qbt.app.cmd
+        Metadata:archIndependent=true
+        Metadata:prefix=app/cmd
+        Strong:qbt.app.main,HEAD
+        Weak:3p.gradle,HEAD
     qbt.app.main
         Metadata:archIndependent=true
         Metadata:prefix=app/main
@@ -597,7 +602,7 @@ qbt,HEAD:6fffeca461a860481619c3474a868277502ccd04
     qbt.release
         Metadata:archIndependent=true
         Metadata:prefix=release
-        Weak:qbt.app.main,HEAD
+        Weak:qbt.app.cmd,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
 wrapper_generator,HEAD:9322ba0164d17939131d2d1d8944d79b76c81a14
     qbt_fringe.wrapper_generator.main
