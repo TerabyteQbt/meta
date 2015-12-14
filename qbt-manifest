@@ -471,7 +471,20 @@ meta_tools,HEAD:82335a07803608cbf3331bc94b19d3efbb9dde47
         Metadata:prefix=release
         Weak:meta_tools.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-misc1,HEAD:7c589da304ba80fb44c0088f98967dafc05d8918
+misc1,HEAD:7ddfe6d64ca47af17d371ce9ee8fdcafd8930c46
+    misc1.commons.algo.main
+        Metadata:archIndependent=true
+        Metadata:prefix=commons.algo/main
+        Strong:mc.com.google.guava.guava,HEAD
+        Weak:3p.gradle,HEAD
+        Weak:qbt_fringe.linter.release,HEAD
+    misc1.commons.algo.test
+        Metadata:archIndependent=true
+        Metadata:prefix=commons.algo/test
+        Strong:mc.junit.junit,HEAD
+        Strong:misc1.commons.algo.main,HEAD
+        Weak:3p.gradle,HEAD
+        Weak:qbt_fringe.linter.release,HEAD
     misc1.commons.concurrent.main
         Metadata:archIndependent=true
         Metadata:prefix=commons.concurrent/main
