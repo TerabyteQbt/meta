@@ -443,22 +443,23 @@ link_checker,HEAD:c3ea176226fe6d7550716cd14f8b17c65848a28c
         Metadata:archIndependent=true
         Metadata:buildType=COPY
         Metadata:prefix=release
-linter,HEAD:b1fe6fd824f47b2a389128feaef783b9439901cc
+linter,HEAD:9f452b07cd116a1b2c6699d90733c1a1e3a38764
     qbt_fringe.linter.main
         Metadata:archIndependent=true
         Metadata:prefix=main
         Strong:misc1.commons.options.main,HEAD
         Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-    qbt_fringe.linter.prerelease
+        Verify:qbt_fringe.linter.main.lint,HEAD,lint
+    qbt_fringe.linter.main.lint
         Metadata:archIndependent=true
-        Metadata:prefix=prerelease
+        Metadata:prefix=.main.lint
         Weak:qbt_fringe.linter.main,HEAD
-        Weak:qbt_fringe.wrapper_generator.release,HEAD
+        Weak:qbt_fringe.linter.release,HEAD
     qbt_fringe.linter.release
         Metadata:archIndependent=true
-        Metadata:buildType=COPY
         Metadata:prefix=release
+        Weak:qbt_fringe.linter.main,HEAD
+        Weak:qbt_fringe.wrapper_generator.release,HEAD
 meta_tools,HEAD:957cbacafe12bb96e8be610f39ab24d43febf971
     meta_tools.main
         Metadata:archIndependent=true
@@ -471,7 +472,7 @@ meta_tools,HEAD:957cbacafe12bb96e8be610f39ab24d43febf971
         Metadata:prefix=release
         Weak:meta_tools.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-misc1,HEAD:a3c13990fd403aedf03c914d2f688a3f114b6298
+misc1,HEAD:a63125b59318184d46a45bcf10589fd1394eab46
     misc1.commons.algo.main
         Metadata:archIndependent=true
         Metadata:prefix=commons.algo/main
@@ -506,8 +507,13 @@ misc1,HEAD:a3c13990fd403aedf03c914d2f688a3f114b6298
         Strong:mc.com.google.guava.guava,HEAD
         Strong:mc.org.apache.commons.commons.lang3,HEAD
         Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
+        Verify:misc1.commons.core.main.lint,HEAD,lint
         Verify:misc1.commons.core.test,HEAD,test
+    misc1.commons.core.main.lint
+        Metadata:archIndependent=true
+        Metadata:prefix=commons.core/.main.lint
+        Weak:misc1.commons.core.main,HEAD
+        Weak:qbt_fringe.linter.release,HEAD
     misc1.commons.core.test
         Metadata:archIndependent=true
         Metadata:prefix=commons.core/test
@@ -519,8 +525,13 @@ misc1,HEAD:a3c13990fd403aedf03c914d2f688a3f114b6298
         Metadata:prefix=commons.options/main
         Strong:misc1.commons.core.main,HEAD
         Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
+        Verify:misc1.commons.options.main.lint,HEAD,lint
         Verify:misc1.commons.options.test,HEAD,test
+    misc1.commons.options.main.lint
+        Metadata:archIndependent=true
+        Metadata:prefix=commons.options/.main.lint
+        Weak:misc1.commons.options.main,HEAD
+        Weak:qbt_fringe.linter.release,HEAD
     misc1.commons.options.test
         Metadata:archIndependent=true
         Metadata:prefix=commons.options/test
