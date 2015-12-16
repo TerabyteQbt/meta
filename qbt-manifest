@@ -570,7 +570,7 @@ pbt,HEAD:df84bad7d18f3286a27bc555ff07cb5ff319e12c
         Metadata:archIndependent=true
         Metadata:prefix=release
         Strong:pbt.bin,HEAD
-qbt,HEAD:27a871bbb2bdc7412fbf7902689cf36be3b52e5c
+qbt,HEAD:a59d3d69f559e90b69f23fc055748569b16a84b5
     qbt.app.cmd
         Metadata:archIndependent=true
         Metadata:prefix=app/cmd
