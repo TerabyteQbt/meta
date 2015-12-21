@@ -472,7 +472,7 @@ meta_tools,HEAD:52f6bebd256eeb3324173ecb829d6f7b4fab895f
         Metadata:prefix=release
         Weak:meta_tools.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-misc1,HEAD:62d338168e3111c980977d4d3ba523295443fc01
+misc1,HEAD:666899a2ddc59adc0107e6354749640fd12831b4
     misc1.commons.algo.main
         Metadata:archIndependent=true
         Metadata:prefix=commons.algo/main
@@ -570,7 +570,7 @@ pbt,HEAD:df84bad7d18f3286a27bc555ff07cb5ff319e12c
         Metadata:archIndependent=true
         Metadata:prefix=release
         Strong:pbt.bin,HEAD
-qbt,HEAD:2ee1e6ae71c8e2f69515ca78d4ca3f57c31cca27
+qbt,HEAD:a99f3b7808d508efd12e5a4dde1d94aee7d6f882
     qbt.app.cmd
         Metadata:archIndependent=true
         Metadata:prefix=app/cmd
