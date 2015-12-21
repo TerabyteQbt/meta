@@ -472,7 +472,7 @@ meta_tools,HEAD:fe6719147a8bc16b4cc22d2b5539a75129475faf
         Metadata:prefix=release
         Weak:meta_tools.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-misc1,HEAD:830f7baaf76ab9d97621d09c570586579e96fca9
+misc1,HEAD:986532b98965e8c2424299d02be03db8affe0ce3
     misc1.commons.algo.main
         Metadata:archIndependent=true
         Metadata:prefix=commons.algo/main
