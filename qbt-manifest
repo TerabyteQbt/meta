@@ -460,7 +460,7 @@ linter,HEAD:082fada66b6bb74ed7de640b97136e67a7099ca3
         Metadata:prefix=release
         Weak:qbt_fringe.linter.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-meta_tools,HEAD:6f4c20ba2b3db38c1bdf35c219d85db4e5f1b3a4
+meta_tools,HEAD:25f18aec0b79013995f1f127f8072c4d5b5b2589
     meta_tools.main
         Metadata:archIndependent=true
         Metadata:prefix=main
@@ -577,7 +577,7 @@ pbt,HEAD:df84bad7d18f3286a27bc555ff07cb5ff319e12c
         Metadata:archIndependent=true
         Metadata:prefix=release
         Strong:pbt.bin,HEAD
-qbt,HEAD:19345ecf08f0f240b5ac17acf91f20411569629f
+qbt,HEAD:8622c347a167698d991cf74a59c9bc79f43810b3
     qbt.app.cmd
         Metadata:archIndependent=true
         Metadata:prefix=app/cmd
