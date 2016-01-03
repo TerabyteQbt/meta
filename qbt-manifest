@@ -413,7 +413,7 @@
         Metadata:archIndependent=true
         Metadata:prefix=mc/xml-resolver/xml-resolver
         Weak:qbt_fringe.link_checker.release,HEAD
-eclipse_gen,HEAD:17986dfa7b3db409f716236375a0bc8094ecfb83
+eclipse_gen,HEAD:f97152507282e029090f6524fac2eb0c41ee7418
     qbt_fringe.eclipse_gen.simple.main
         Metadata:archIndependent=true
         Metadata:prefix=simple/main
