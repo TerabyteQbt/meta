@@ -1,769 +1,1373 @@
-3p,HEAD:347189c6d0d28d6cad76de0c3d50b1cc06ad7891
-    3p.gradle
-        Metadata:archIndependent=true
-        Metadata:buildType=COPY
-        Metadata:prefix=gradle
-    mc.ant.contrib.ant.contrib
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/ant-contrib/ant-contrib
-        Metadata:qbtEnv=JDK
-        Strong:mc.commons.httpclient.commons.httpclient,HEAD
-        Strong:mc.org.apache.ant.ant,HEAD
-        Strong:mc.org.apache.bcel.bcel,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.cglib.cglib.nodep
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/cglib/cglib-nodep
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.com.google.code.findbugs.jsr305
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/com.google.code.findbugs/jsr305
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.com.google.code.gson.gson
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/com.google.code.gson/gson
-        Metadata:qbtEnv=JDK
-        Strong:mc.junit.junit,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.com.google.dexmaker.dexmaker
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/com.google.dexmaker/dexmaker
-        Metadata:qbtEnv=JDK
-        Strong:mc.com.google.dexmaker.dexmaker.dx,HEAD
-        Strong:mc.junit.junit,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.com.google.dexmaker.dexmaker.dx
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/com.google.dexmaker/dexmaker-dx
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.com.google.guava.guava
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/com.google.guava/guava
-        Metadata:qbtEnv=JDK
-        Strong:mc.com.google.code.findbugs.jsr305,HEAD
-        Strong:mc.javax.inject.javax.inject,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.com.jcraft.jsch
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/com.jcraft/jsch
-        Metadata:qbtEnv=JDK
-        Strong:mc.com.jcraft.jzlib,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.com.jcraft.jsch.agentproxy
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/com.jcraft/jsch.agentproxy
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.com.jcraft.jsch.agentproxy.connector.factory
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/com.jcraft/jsch.agentproxy.connector-factory
-        Metadata:qbtEnv=JDK
-        Strong:mc.com.jcraft.jsch.agentproxy.core,HEAD
-        Strong:mc.com.jcraft.jsch.agentproxy.pageant,HEAD
-        Strong:mc.com.jcraft.jsch.agentproxy.sshagent,HEAD
-        Strong:mc.com.jcraft.jsch.agentproxy.usocket.jna,HEAD
-        Strong:mc.com.jcraft.jsch.agentproxy.usocket.nc,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.com.jcraft.jsch.agentproxy.core
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/com.jcraft/jsch.agentproxy.core
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.com.jcraft.jsch.agentproxy.jsch
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/com.jcraft/jsch.agentproxy.jsch
-        Metadata:qbtEnv=JDK
-        Strong:mc.com.jcraft.jsch,HEAD
-        Strong:mc.com.jcraft.jsch.agentproxy.core,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.com.jcraft.jsch.agentproxy.pageant
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/com.jcraft/jsch.agentproxy.pageant
-        Metadata:qbtEnv=JDK
-        Strong:mc.com.jcraft.jsch.agentproxy.core,HEAD
-        Strong:mc.net.java.dev.jna.jna,HEAD
-        Strong:mc.net.java.dev.jna.platform,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.com.jcraft.jsch.agentproxy.sshagent
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/com.jcraft/jsch.agentproxy.sshagent
-        Metadata:qbtEnv=JDK
-        Strong:mc.com.jcraft.jsch.agentproxy.core,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.com.jcraft.jsch.agentproxy.usocket.jna
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/com.jcraft/jsch.agentproxy.usocket-jna
-        Metadata:qbtEnv=JDK
-        Strong:mc.com.jcraft.jsch.agentproxy.core,HEAD
-        Strong:mc.net.java.dev.jna.jna,HEAD
-        Strong:mc.net.java.dev.jna.platform,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.com.jcraft.jsch.agentproxy.usocket.nc
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/com.jcraft/jsch.agentproxy.usocket-nc
-        Metadata:qbtEnv=JDK
-        Strong:mc.com.jcraft.jsch.agentproxy.core,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.com.jcraft.jzlib
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/com.jcraft/jzlib
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.commons.codec.commons.codec
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/commons-codec/commons-codec
-        Metadata:qbtEnv=JDK
-        Strong:mc.junit.junit,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.commons.collections.commons.collections
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/commons-collections/commons-collections
-        Metadata:qbtEnv=JDK
-        Strong:mc.junit.junit,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.commons.httpclient.commons.httpclient
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/commons-httpclient/commons-httpclient
-        Metadata:qbtEnv=JDK
-        Strong:mc.commons.codec.commons.codec,HEAD
-        Strong:mc.commons.logging.commons.logging,HEAD
-        Strong:mc.junit.junit,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.commons.io.commons.io
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/commons-io/commons-io
-        Metadata:qbtEnv=JDK
-        Strong:mc.junit.junit,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.commons.lang.commons.lang
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/commons-lang/commons-lang
-        Metadata:qbtEnv=JDK
-        Strong:mc.junit.junit,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.commons.logging.commons.logging
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/commons-logging/commons-logging
-        Metadata:qbtEnv=JDK
-        Strong:mc.javax.servlet.servlet.api,HEAD
-        Strong:mc.junit.junit,HEAD
-        Strong:mc.log4j.log4j,HEAD
-        Strong:mc.logkit.logkit,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.commons.net.commons.net
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/commons-net/commons-net
-        Metadata:qbtEnv=JDK
-        Strong:mc.oro.oro,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.commons.vfs.commons.vfs
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/commons-vfs/commons-vfs
-        Metadata:qbtEnv=JDK
-        Strong:mc.com.jcraft.jsch,HEAD
-        Strong:mc.commons.collections.commons.collections,HEAD
-        Strong:mc.commons.httpclient.commons.httpclient,HEAD
-        Strong:mc.commons.logging.commons.logging,HEAD
-        Strong:mc.commons.net.commons.net,HEAD
-        Strong:mc.jdom.jdom,HEAD
-        Strong:mc.org.apache.ant.ant,HEAD
-        Strong:mc.oro.oro,HEAD
-        Strong:mc.xml.apis.xml.apis,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.hsqldb.hsqldb
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/hsqldb/hsqldb
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.jakarta.regexp.jakarta.regexp
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/jakarta-regexp/jakarta-regexp
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.javax.activation.activation
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/javax.activation/activation
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.javax.inject.javax.inject
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/javax.inject/javax.inject
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.javax.mail.mail
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/javax.mail/mail
-        Metadata:qbtEnv=JDK
-        Strong:mc.javax.activation.activation,HEAD
-        Strong:mc.junit.junit,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.javax.servlet.servlet.api
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/javax.servlet/servlet-api
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.jaxen.jaxen
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/jaxen/jaxen
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.jdom.jdom
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/jdom/jdom
-        Metadata:qbtEnv=JDK
-        Strong:mc.jaxen.jaxen,HEAD
-        Strong:mc.saxpath.saxpath,HEAD
-        Strong:mc.xalan.xalan,HEAD
-        Strong:mc.xerces.xercesImpl,HEAD
-        Strong:mc.xml.apis.xml.apis,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.junit.junit
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/junit/junit
-        Metadata:qbtEnv=JDK
-        Strong:mc.org.hamcrest.hamcrest.core,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.log4j.apache.log4j.extras
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/log4j/apache-log4j-extras
-        Metadata:qbtEnv=JDK
-        Strong:mc.hsqldb.hsqldb,HEAD
-        Strong:mc.junit.junit,HEAD
-        Strong:mc.log4j.log4j,HEAD
-        Strong:mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.log4j.log4j
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/log4j/log4j
-        Metadata:qbtEnv=JDK
-        Strong:mc.javax.mail.mail,HEAD
-        Strong:mc.junit.junit,HEAD
-        Strong:mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec,HEAD
-        Strong:mc.oro.oro,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.logkit.logkit
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/logkit/logkit
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.net.java.dev.jna.jna
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/net.java.dev.jna/jna
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.net.java.dev.jna.platform
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/net.java.dev.jna/platform
-        Metadata:qbtEnv=JDK
-        Strong:mc.net.java.dev.jna.jna,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.apache.ant.ant
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.apache.ant/ant
-        Metadata:qbtEnv=JDK
-        Strong:mc.junit.junit,HEAD
-        Strong:mc.org.apache.ant.ant.launcher,HEAD
-        Strong:mc.xerces.xercesImpl,HEAD
-        Strong:mc.xml.apis.xml.apis,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.apache.ant.ant.launcher
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.apache.ant/ant-launcher
-        Metadata:qbtEnv=JDK
-        Strong:mc.junit.junit,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.apache.ant.ant.nodeps
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.apache.ant/ant-nodeps
-        Metadata:qbtEnv=JDK
-        Strong:mc.junit.junit,HEAD
-        Strong:mc.org.apache.ant.ant,HEAD
-        Strong:mc.xerces.xercesImpl,HEAD
-        Strong:mc.xml.apis.xml.apis,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.apache.ant.ant.testutil
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.apache.ant/ant-testutil
-        Metadata:qbtEnv=JDK
-        Strong:mc.junit.junit,HEAD
-        Strong:mc.org.apache.ant.ant,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.apache.ant.ant.trax
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.apache.ant/ant-trax
-        Metadata:qbtEnv=JDK
-        Strong:mc.junit.junit,HEAD
-        Strong:mc.org.apache.ant.ant,HEAD
-        Strong:mc.xalan.xalan,HEAD
-        Strong:mc.xerces.xercesImpl,HEAD
-        Strong:mc.xml.apis.xml.apis,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.apache.bcel.bcel
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.apache.bcel/bcel
-        Metadata:qbtEnv=JDK
-        Strong:mc.jakarta.regexp.jakarta.regexp,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.apache.commons.commons.lang3
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.apache.commons/commons-lang3
-        Metadata:qbtEnv=JDK
-        Strong:mc.commons.io.commons.io,HEAD
-        Strong:mc.junit.junit,HEAD
-        Strong:mc.org.easymock.easymock,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.apache.geronimo.specs/geronimo-jms_1.1_spec
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.apache.httpcomponents.httpclient
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.apache.httpcomponents/httpclient
-        Metadata:qbtEnv=JDK
-        Strong:mc.commons.codec.commons.codec,HEAD
-        Strong:mc.commons.logging.commons.logging,HEAD
-        Strong:mc.junit.junit,HEAD
-        Strong:mc.org.apache.httpcomponents.httpcore,HEAD
-        Strong:mc.org.mockito.mockito.core,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.apache.httpcomponents.httpcore
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.apache.httpcomponents/httpcore
-        Metadata:qbtEnv=JDK
-        Strong:mc.commons.logging.commons.logging,HEAD
-        Strong:mc.junit.junit,HEAD
-        Strong:mc.org.mockito.mockito.core,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.apache.ivy.ivy
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.apache.ivy/ivy
-        Metadata:qbtEnv=JDK
-        Strong:mc.ant.contrib.ant.contrib,HEAD
-        Strong:mc.com.jcraft.jsch,HEAD
-        Strong:mc.com.jcraft.jsch.agentproxy,HEAD
-        Strong:mc.com.jcraft.jsch.agentproxy.connector.factory,HEAD
-        Strong:mc.com.jcraft.jsch.agentproxy.jsch,HEAD
-        Strong:mc.commons.httpclient.commons.httpclient,HEAD
-        Strong:mc.commons.lang.commons.lang,HEAD
-        Strong:mc.commons.vfs.commons.vfs,HEAD
-        Strong:mc.junit.junit,HEAD
-        Strong:mc.org.apache.ant.ant,HEAD
-        Strong:mc.org.apache.ant.ant.launcher,HEAD
-        Strong:mc.org.apache.ant.ant.nodeps,HEAD
-        Strong:mc.org.apache.ant.ant.testutil,HEAD
-        Strong:mc.org.apache.ant.ant.trax,HEAD
-        Strong:mc.org.bouncycastle.bcpg.jdk14,HEAD
-        Strong:mc.org.bouncycastle.bcprov.jdk14,HEAD
-        Strong:mc.oro.oro,HEAD
-        Strong:mc.xerces.xercesImpl,HEAD
-        Strong:mc.xerces.xmlParserAPIs,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.apache.maven.maven.artifact
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.apache.maven/maven-artifact
-        Metadata:qbtEnv=JDK
-        Strong:mc.junit.junit,HEAD
-        Strong:mc.org.codehaus.plexus.plexus.utils,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.bouncycastle.bcpg.jdk14
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.bouncycastle/bcpg-jdk14
-        Metadata:qbtEnv=JDK
-        Strong:mc.org.bouncycastle.bcprov.jdk14,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.bouncycastle.bcprov.jdk14
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.bouncycastle/bcprov-jdk14
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.codehaus.groovy.groovy.all
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.codehaus.groovy/groovy-all
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.codehaus.plexus.plexus.utils
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.codehaus.plexus/plexus-utils
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.commonjava.googlecode.markdown4j.markdown4j
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.commonjava.googlecode.markdown4j/markdown4j
-        Metadata:qbtEnv=JDK
-        Strong:mc.junit.junit,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.easymock.easymock
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.easymock/easymock
-        Metadata:qbtEnv=JDK
-        Strong:mc.cglib.cglib.nodep,HEAD
-        Strong:mc.com.google.dexmaker.dexmaker,HEAD
-        Strong:mc.junit.junit,HEAD
-        Strong:mc.org.objenesis.objenesis,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.hamcrest.hamcrest.core
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.hamcrest/hamcrest-core
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.mockito.mockito.core
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.mockito/mockito-core
-        Metadata:qbtEnv=JDK
-        Strong:mc.org.apache.ant.ant,HEAD
-        Strong:mc.org.hamcrest.hamcrest.core,HEAD
-        Strong:mc.org.objenesis.objenesis,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.objenesis.objenesis
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.objenesis/objenesis
-        Metadata:qbtEnv=JDK
-        Strong:mc.junit.junit,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.ow2.asm.asm.all
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.ow2.asm/asm-all
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.slf4j.slf4j.api
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.slf4j/slf4j-api
-        Metadata:qbtEnv=JDK
-        Strong:mc.junit.junit,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.org.slf4j.slf4j.log4j12
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/org.slf4j/slf4j-log4j12
-        Metadata:qbtEnv=JDK
-        Strong:mc.junit.junit,HEAD
-        Strong:mc.log4j.log4j,HEAD
-        Strong:mc.org.slf4j.slf4j.api,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.oro.oro
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/oro/oro
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.saxpath.saxpath
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/saxpath/saxpath
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.xalan.xalan
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/xalan/xalan
-        Metadata:qbtEnv=JDK
-        Strong:mc.org.apache.bcel.bcel,HEAD
-        Strong:mc.xerces.xercesImpl,HEAD
-        Strong:mc.xml.apis.xml.apis,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.xerces.xercesImpl
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/xerces/xercesImpl
-        Metadata:qbtEnv=JDK
-        Strong:mc.xml.apis.xml.apis,HEAD
-        Strong:mc.xml.resolver.xml.resolver,HEAD
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.xerces.xmlParserAPIs
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/xerces/xmlParserAPIs
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.xml.apis.xml.apis
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/xml-apis/xml-apis
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-    mc.xml.resolver.xml.resolver
-        Metadata:archIndependent=true
-        Metadata:prefix=mc/xml-resolver/xml-resolver
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.release,HEAD
-eclipse_gen,HEAD:81de05c287454cbcfb2ed0cf60a2d2fd3c917161
-    qbt_fringe.eclipse_gen.simple.main
-        Metadata:archIndependent=true
-        Metadata:prefix=simple/main
-        Metadata:qbtEnv=JDK
-        Strong:mc.com.google.guava.guava,HEAD
-        Strong:qbt.lib.main,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-    qbt_fringe.eclipse_gen.simple.release
-        Metadata:archIndependent=true
-        Metadata:prefix=simple/release
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.eclipse_gen.simple.main,HEAD
-        Weak:qbt_fringe.wrapper_generator.release,HEAD
-link_checker,HEAD:3352b628806e44cfe75103d79a3a6a778334cfe9
-    qbt_fringe.link_checker.main
-        Metadata:archIndependent=true
-        Metadata:prefix=main
-        Metadata:qbtEnv=JDK
-        Strong:mc.org.ow2.asm.asm.all,HEAD
-        Strong:misc1.commons.options.main,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-    qbt_fringe.link_checker.prerelease
-        Metadata:archIndependent=true
-        Metadata:prefix=prerelease
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.link_checker.main,HEAD
-        Weak:qbt_fringe.wrapper_generator.release,HEAD
-    qbt_fringe.link_checker.release
-        Metadata:archIndependent=true
-        Metadata:buildType=COPY
-        Metadata:prefix=release
-        Metadata:qbtEnv=JDK
-linter,HEAD:3b6ccbd81074f37e4ea5cbc02460cecdf57cda88
-    qbt_fringe.linter.main
-        Metadata:archIndependent=true
-        Metadata:prefix=main
-        Metadata:qbtEnv=JDK
-        Strong:misc1.commons.options.main,HEAD
-        Weak:3p.gradle,HEAD
-        Verify:qbt_fringe.linter.main.lint,HEAD,lint
-    qbt_fringe.linter.main.lint
-        Metadata:archIndependent=true
-        Metadata:prefix=.main.lint
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.linter.main,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-    qbt_fringe.linter.release
-        Metadata:archIndependent=true
-        Metadata:prefix=release
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.linter.main,HEAD
-        Weak:qbt_fringe.wrapper_generator.release,HEAD
-meta_tools,HEAD:f772df5b87baafd94707c295b9b10195f12c6c98
-    meta_tools.main
-        Metadata:archIndependent=true
-        Metadata:prefix=main
-        Metadata:qbtEnv=JDK
-        Strong:qbt.app.cmd,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-    meta_tools.release
-        Metadata:archIndependent=true
-        Metadata:prefix=release
-        Metadata:qbtEnv=JDK
-        Weak:meta_tools.main,HEAD
-        Weak:qbt_fringe.wrapper_generator.release,HEAD
-misc1,HEAD:68dad858d7e9e8f88217d78ed7a1a1d92f354d58
-    misc1.commons.algo.main
-        Metadata:archIndependent=true
-        Metadata:prefix=commons.algo/main
-        Metadata:qbtEnv=JDK
-        Strong:mc.com.google.guava.guava,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-        Verify:misc1.commons.algo.test,HEAD,test
-    misc1.commons.algo.test
-        Metadata:archIndependent=true
-        Metadata:prefix=commons.algo/test
-        Metadata:qbtEnv=JDK
-        Strong:mc.junit.junit,HEAD
-        Strong:misc1.commons.algo.main,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-    misc1.commons.concurrent.main
-        Metadata:archIndependent=true
-        Metadata:prefix=commons.concurrent/main
-        Metadata:qbtEnv=JDK
-        Strong:mc.org.slf4j.slf4j.api,HEAD
-        Strong:misc1.commons.core.main,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-        Verify:misc1.commons.concurrent.test,HEAD,test
-    misc1.commons.concurrent.test
-        Metadata:archIndependent=true
-        Metadata:prefix=commons.concurrent/test
-        Metadata:qbtEnv=JDK
-        Strong:misc1.commons.concurrent.main,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-    misc1.commons.core.main
-        Metadata:archIndependent=true
-        Metadata:prefix=commons.core/main
-        Metadata:qbtEnv=JDK
-        Strong:mc.com.google.guava.guava,HEAD
-        Strong:mc.org.apache.commons.commons.lang3,HEAD
-        Weak:3p.gradle,HEAD
-        Verify:misc1.commons.core.main.lint,HEAD,lint
-        Verify:misc1.commons.core.test,HEAD,test
-    misc1.commons.core.main.lint
-        Metadata:archIndependent=true
-        Metadata:prefix=commons.core/.main.lint
-        Metadata:qbtEnv=JDK
-        Weak:misc1.commons.core.main,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-    misc1.commons.core.test
-        Metadata:archIndependent=true
-        Metadata:prefix=commons.core/test
-        Metadata:qbtEnv=JDK
-        Strong:misc1.commons.core.main,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-    misc1.commons.options.main
-        Metadata:archIndependent=true
-        Metadata:prefix=commons.options/main
-        Metadata:qbtEnv=JDK
-        Strong:misc1.commons.core.main,HEAD
-        Weak:3p.gradle,HEAD
-        Verify:misc1.commons.options.main.lint,HEAD,lint
-        Verify:misc1.commons.options.test,HEAD,test
-    misc1.commons.options.main.lint
-        Metadata:archIndependent=true
-        Metadata:prefix=commons.options/.main.lint
-        Metadata:qbtEnv=JDK
-        Weak:misc1.commons.options.main,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-    misc1.commons.options.test
-        Metadata:archIndependent=true
-        Metadata:prefix=commons.options/test
-        Metadata:qbtEnv=JDK
-        Strong:misc1.commons.options.main,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-    misc1.commons.ph.main
-        Metadata:archIndependent=true
-        Metadata:prefix=commons.ph/main
-        Metadata:qbtEnv=JDK
-        Strong:mc.org.slf4j.slf4j.api,HEAD
-        Strong:misc1.commons.core.main,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-    misc1.third_party_tools.main
-        Metadata:archIndependent=true
-        Metadata:prefix=third_party_tools/main
-        Metadata:qbtEnv=JDK
-        Strong:mc.org.apache.ivy.ivy,HEAD
-        Strong:mc.org.apache.maven.maven.artifact,HEAD
-        Strong:qbt.app.main,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-        Verify:misc1.third_party_tools.test,HEAD,test
-    misc1.third_party_tools.release
-        Metadata:archIndependent=true
-        Metadata:prefix=third_party_tools/release
-        Metadata:qbtEnv=JDK
-        Weak:misc1.third_party_tools.main,HEAD
-        Weak:qbt_fringe.wrapper_generator.release,HEAD
-    misc1.third_party_tools.test
-        Metadata:archIndependent=true
-        Metadata:prefix=third_party_tools/test
-        Metadata:qbtEnv=JDK
-        Strong:misc1.third_party_tools.main,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-pbt,HEAD:df84bad7d18f3286a27bc555ff07cb5ff319e12c
-    pbt.bin
-        Metadata:archIndependent=true
-        Metadata:prefix=bin
-        Strong:pbt.lib,HEAD
-    pbt.lib
-        Metadata:archIndependent=true
-        Metadata:prefix=lib
-    pbt.release
-        Metadata:archIndependent=true
-        Metadata:prefix=release
-        Strong:pbt.bin,HEAD
-qbt,HEAD:5c3d060ba6747c8f190cc9d99b0a7189c747ba92
-    qbt.app.cmd
-        Metadata:archIndependent=true
-        Metadata:prefix=app/cmd
-        Metadata:qbtEnv=JDK
-        Strong:qbt.app.main,HEAD
-        Weak:3p.gradle,HEAD
-    qbt.app.main
-        Metadata:archIndependent=true
-        Metadata:prefix=app/main
-        Metadata:qbtEnv=JDK
-        Strong:mc.com.google.code.gson.gson,HEAD
-        Strong:mc.org.apache.httpcomponents.httpclient,HEAD
-        Strong:mc.org.codehaus.groovy.groovy.all,HEAD
-        Strong:misc1.commons.algo.main,HEAD
-        Strong:misc1.commons.concurrent.main,HEAD
-        Strong:misc1.commons.ph.main,HEAD
-        Strong:qbt.bin.main,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-        Verify:qbt.app.test,HEAD,test
-    qbt.app.test
-        Metadata:archIndependent=true
-        Metadata:prefix=app/test
-        Metadata:qbtEnv=JDK
-        Strong:qbt.app.main,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-    qbt.bin.main
-        Metadata:archIndependent=true
-        Metadata:prefix=bin/main
-        Metadata:qbtEnv=JDK
-        Strong:mc.org.slf4j.slf4j.log4j12,HEAD
-        Strong:misc1.commons.options.main,HEAD
-        Strong:qbt.lib.main,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-        Verify:qbt.bin.test,HEAD,test
-    qbt.bin.test
-        Metadata:archIndependent=true
-        Metadata:prefix=bin/test
-        Metadata:qbtEnv=JDK
-        Strong:qbt.bin.main,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-    qbt.docs
-        Metadata:archIndependent=true
-        Metadata:prefix=docs
-        Metadata:qbtEnv=JDK
-        Strong:mc.org.commonjava.googlecode.markdown4j.markdown4j,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-    qbt.lib.main
-        Metadata:archIndependent=true
-        Metadata:prefix=lib/main
-        Metadata:qbtEnv=JDK
-        Strong:misc1.commons.core.main,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-        Verify:qbt.lib.test,HEAD,test
-    qbt.lib.test
-        Metadata:archIndependent=true
-        Metadata:prefix=lib/test
-        Metadata:qbtEnv=JDK
-        Strong:qbt.lib.main,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-    qbt.qbtbuildtool.com
-        Metadata:archIndependent=true
-        Metadata:prefix=qbtbuildtool.com
-        Strong:qbt.docs,HEAD
-        Weak:meta_tools.release,HEAD
-    qbt.release
-        Metadata:archIndependent=true
-        Metadata:prefix=release
-        Metadata:qbtEnv=JDK
-        Weak:qbt.app.cmd,HEAD
-        Weak:qbt_fringe.wrapper_generator.release,HEAD
-wrapper_generator,HEAD:1ee173c1322b1fd7f89868d45cd31936cd3fea72
-    qbt_fringe.wrapper_generator.main
-        Metadata:archIndependent=true
-        Metadata:prefix=main
-        Metadata:qbtEnv=JDK
-        Strong:mc.com.google.guava.guava,HEAD
-        Weak:3p.gradle,HEAD
-        Weak:qbt_fringe.linter.release,HEAD
-    qbt_fringe.wrapper_generator.prerelease
-        Metadata:archIndependent=true
-        Metadata:prefix=prerelease
-        Metadata:qbtEnv=JDK
-        Weak:qbt_fringe.wrapper_generator.main,HEAD
-        Weak:qbt_fringe.wrapper_generator.release,HEAD
-    qbt_fringe.wrapper_generator.release
-        Metadata:archIndependent=true
-        Metadata:buildType=COPY
-        Metadata:prefix=release
-        Metadata:qbtEnv=JDK
+@1
+{
+    "3p": {
+        "packages": {
+            "3p.gradle": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "buildType": "COPY",
+                    "prefix": "gradle"
+                }
+            },
+            "mc.ant.contrib.ant.contrib": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/ant-contrib/ant-contrib",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.commons.httpclient.commons.httpclient": "Strong,HEAD",
+                    "mc.org.apache.ant.ant": "Strong,HEAD",
+                    "mc.org.apache.bcel.bcel": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.cglib.cglib.nodep": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/cglib/cglib-nodep",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.com.google.code.findbugs.jsr305": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/com.google.code.findbugs/jsr305",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.com.google.code.gson.gson": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/com.google.code.gson/gson",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.com.google.dexmaker.dexmaker": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/com.google.dexmaker/dexmaker",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.com.google.dexmaker.dexmaker.dx": "Strong,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.com.google.dexmaker.dexmaker.dx": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/com.google.dexmaker/dexmaker-dx",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.com.google.guava.guava": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/com.google.guava/guava",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.com.google.code.findbugs.jsr305": "Strong,HEAD",
+                    "mc.javax.inject.javax.inject": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.com.jcraft.jsch": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/com.jcraft/jsch",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.com.jcraft.jzlib": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.com.jcraft.jsch.agentproxy": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/com.jcraft/jsch.agentproxy",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.com.jcraft.jsch.agentproxy.connector.factory": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/com.jcraft/jsch.agentproxy.connector-factory",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.com.jcraft.jsch.agentproxy.core": "Strong,HEAD",
+                    "mc.com.jcraft.jsch.agentproxy.pageant": "Strong,HEAD",
+                    "mc.com.jcraft.jsch.agentproxy.sshagent": "Strong,HEAD",
+                    "mc.com.jcraft.jsch.agentproxy.usocket.jna": "Strong,HEAD",
+                    "mc.com.jcraft.jsch.agentproxy.usocket.nc": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.com.jcraft.jsch.agentproxy.core": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/com.jcraft/jsch.agentproxy.core",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.com.jcraft.jsch.agentproxy.jsch": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/com.jcraft/jsch.agentproxy.jsch",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.com.jcraft.jsch": "Strong,HEAD",
+                    "mc.com.jcraft.jsch.agentproxy.core": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.com.jcraft.jsch.agentproxy.pageant": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/com.jcraft/jsch.agentproxy.pageant",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.com.jcraft.jsch.agentproxy.core": "Strong,HEAD",
+                    "mc.net.java.dev.jna.jna": "Strong,HEAD",
+                    "mc.net.java.dev.jna.platform": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.com.jcraft.jsch.agentproxy.sshagent": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/com.jcraft/jsch.agentproxy.sshagent",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.com.jcraft.jsch.agentproxy.core": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.com.jcraft.jsch.agentproxy.usocket.jna": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/com.jcraft/jsch.agentproxy.usocket-jna",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.com.jcraft.jsch.agentproxy.core": "Strong,HEAD",
+                    "mc.net.java.dev.jna.jna": "Strong,HEAD",
+                    "mc.net.java.dev.jna.platform": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.com.jcraft.jsch.agentproxy.usocket.nc": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/com.jcraft/jsch.agentproxy.usocket-nc",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.com.jcraft.jsch.agentproxy.core": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.com.jcraft.jzlib": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/com.jcraft/jzlib",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.commons.codec.commons.codec": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/commons-codec/commons-codec",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.commons.collections.commons.collections": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/commons-collections/commons-collections",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.commons.httpclient.commons.httpclient": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/commons-httpclient/commons-httpclient",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.commons.codec.commons.codec": "Strong,HEAD",
+                    "mc.commons.logging.commons.logging": "Strong,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.commons.io.commons.io": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/commons-io/commons-io",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.commons.lang.commons.lang": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/commons-lang/commons-lang",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.commons.logging.commons.logging": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/commons-logging/commons-logging",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.javax.servlet.servlet.api": "Strong,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
+                    "mc.log4j.log4j": "Strong,HEAD",
+                    "mc.logkit.logkit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.commons.net.commons.net": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/commons-net/commons-net",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.oro.oro": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.commons.vfs.commons.vfs": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/commons-vfs/commons-vfs",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.com.jcraft.jsch": "Strong,HEAD",
+                    "mc.commons.collections.commons.collections": "Strong,HEAD",
+                    "mc.commons.httpclient.commons.httpclient": "Strong,HEAD",
+                    "mc.commons.logging.commons.logging": "Strong,HEAD",
+                    "mc.commons.net.commons.net": "Strong,HEAD",
+                    "mc.jdom.jdom": "Strong,HEAD",
+                    "mc.org.apache.ant.ant": "Strong,HEAD",
+                    "mc.oro.oro": "Strong,HEAD",
+                    "mc.xml.apis.xml.apis": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.hsqldb.hsqldb": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/hsqldb/hsqldb",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.jakarta.regexp.jakarta.regexp": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/jakarta-regexp/jakarta-regexp",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.javax.activation.activation": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/javax.activation/activation",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.javax.inject.javax.inject": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/javax.inject/javax.inject",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.javax.mail.mail": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/javax.mail/mail",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.javax.activation.activation": "Strong,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.javax.servlet.servlet.api": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/javax.servlet/servlet-api",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.jaxen.jaxen": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/jaxen/jaxen",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.jdom.jdom": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/jdom/jdom",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.jaxen.jaxen": "Strong,HEAD",
+                    "mc.saxpath.saxpath": "Strong,HEAD",
+                    "mc.xalan.xalan": "Strong,HEAD",
+                    "mc.xerces.xercesImpl": "Strong,HEAD",
+                    "mc.xml.apis.xml.apis": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.junit.junit": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/junit/junit",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.org.hamcrest.hamcrest.core": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.log4j.apache.log4j.extras": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/log4j/apache-log4j-extras",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.hsqldb.hsqldb": "Strong,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
+                    "mc.log4j.log4j": "Strong,HEAD",
+                    "mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.log4j.log4j": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/log4j/log4j",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.javax.mail.mail": "Strong,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
+                    "mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec": "Strong,HEAD",
+                    "mc.oro.oro": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.logkit.logkit": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/logkit/logkit",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.net.java.dev.jna.jna": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/net.java.dev.jna/jna",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.net.java.dev.jna.platform": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/net.java.dev.jna/platform",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.net.java.dev.jna.jna": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.apache.ant.ant": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.apache.ant/ant",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.junit.junit": "Strong,HEAD",
+                    "mc.org.apache.ant.ant.launcher": "Strong,HEAD",
+                    "mc.xerces.xercesImpl": "Strong,HEAD",
+                    "mc.xml.apis.xml.apis": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.apache.ant.ant.launcher": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.apache.ant/ant-launcher",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.apache.ant.ant.nodeps": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.apache.ant/ant-nodeps",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.junit.junit": "Strong,HEAD",
+                    "mc.org.apache.ant.ant": "Strong,HEAD",
+                    "mc.xerces.xercesImpl": "Strong,HEAD",
+                    "mc.xml.apis.xml.apis": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.apache.ant.ant.testutil": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.apache.ant/ant-testutil",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.junit.junit": "Strong,HEAD",
+                    "mc.org.apache.ant.ant": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.apache.ant.ant.trax": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.apache.ant/ant-trax",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.junit.junit": "Strong,HEAD",
+                    "mc.org.apache.ant.ant": "Strong,HEAD",
+                    "mc.xalan.xalan": "Strong,HEAD",
+                    "mc.xerces.xercesImpl": "Strong,HEAD",
+                    "mc.xml.apis.xml.apis": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.apache.bcel.bcel": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.apache.bcel/bcel",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.jakarta.regexp.jakarta.regexp": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.apache.commons.commons.lang3": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.apache.commons/commons-lang3",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.commons.io.commons.io": "Strong,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
+                    "mc.org.easymock.easymock": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.apache.geronimo.specs/geronimo-jms_1.1_spec",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.apache.httpcomponents.httpclient": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.apache.httpcomponents/httpclient",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.commons.codec.commons.codec": "Strong,HEAD",
+                    "mc.commons.logging.commons.logging": "Strong,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
+                    "mc.org.apache.httpcomponents.httpcore": "Strong,HEAD",
+                    "mc.org.mockito.mockito.core": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.apache.httpcomponents.httpcore": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.apache.httpcomponents/httpcore",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.commons.logging.commons.logging": "Strong,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
+                    "mc.org.mockito.mockito.core": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.apache.ivy.ivy": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.apache.ivy/ivy",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.ant.contrib.ant.contrib": "Strong,HEAD",
+                    "mc.com.jcraft.jsch": "Strong,HEAD",
+                    "mc.com.jcraft.jsch.agentproxy": "Strong,HEAD",
+                    "mc.com.jcraft.jsch.agentproxy.connector.factory": "Strong,HEAD",
+                    "mc.com.jcraft.jsch.agentproxy.jsch": "Strong,HEAD",
+                    "mc.commons.httpclient.commons.httpclient": "Strong,HEAD",
+                    "mc.commons.lang.commons.lang": "Strong,HEAD",
+                    "mc.commons.vfs.commons.vfs": "Strong,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
+                    "mc.org.apache.ant.ant": "Strong,HEAD",
+                    "mc.org.apache.ant.ant.launcher": "Strong,HEAD",
+                    "mc.org.apache.ant.ant.nodeps": "Strong,HEAD",
+                    "mc.org.apache.ant.ant.testutil": "Strong,HEAD",
+                    "mc.org.apache.ant.ant.trax": "Strong,HEAD",
+                    "mc.org.bouncycastle.bcpg.jdk14": "Strong,HEAD",
+                    "mc.org.bouncycastle.bcprov.jdk14": "Strong,HEAD",
+                    "mc.oro.oro": "Strong,HEAD",
+                    "mc.xerces.xercesImpl": "Strong,HEAD",
+                    "mc.xerces.xmlParserAPIs": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.apache.maven.maven.artifact": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.apache.maven/maven-artifact",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.junit.junit": "Strong,HEAD",
+                    "mc.org.codehaus.plexus.plexus.utils": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.bouncycastle.bcpg.jdk14": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.bouncycastle/bcpg-jdk14",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.org.bouncycastle.bcprov.jdk14": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.bouncycastle.bcprov.jdk14": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.bouncycastle/bcprov-jdk14",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.codehaus.groovy.groovy.all": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.codehaus.groovy/groovy-all",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.codehaus.plexus.plexus.utils": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.codehaus.plexus/plexus-utils",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.commonjava.googlecode.markdown4j.markdown4j": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.commonjava.googlecode.markdown4j/markdown4j",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.easymock.easymock": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.easymock/easymock",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.cglib.cglib.nodep": "Strong,HEAD",
+                    "mc.com.google.dexmaker.dexmaker": "Strong,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
+                    "mc.org.objenesis.objenesis": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.hamcrest.hamcrest.core": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.hamcrest/hamcrest-core",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.mockito.mockito.core": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.mockito/mockito-core",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.org.apache.ant.ant": "Strong,HEAD",
+                    "mc.org.hamcrest.hamcrest.core": "Strong,HEAD",
+                    "mc.org.objenesis.objenesis": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.objenesis.objenesis": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.objenesis/objenesis",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.ow2.asm.asm.all": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.ow2.asm/asm-all",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.slf4j.slf4j.api": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.slf4j/slf4j-api",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.slf4j.slf4j.log4j12": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/org.slf4j/slf4j-log4j12",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.junit.junit": "Strong,HEAD",
+                    "mc.log4j.log4j": "Strong,HEAD",
+                    "mc.org.slf4j.slf4j.api": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.oro.oro": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/oro/oro",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.saxpath.saxpath": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/saxpath/saxpath",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.xalan.xalan": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/xalan/xalan",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.org.apache.bcel.bcel": "Strong,HEAD",
+                    "mc.xerces.xercesImpl": "Strong,HEAD",
+                    "mc.xml.apis.xml.apis": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.xerces.xercesImpl": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/xerces/xercesImpl",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.xml.apis.xml.apis": "Strong,HEAD",
+                    "mc.xml.resolver.xml.resolver": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.xerces.xmlParserAPIs": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/xerces/xmlParserAPIs",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.xml.apis.xml.apis": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/xml-apis/xml-apis",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.xml.resolver.xml.resolver": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "mc/xml-resolver/xml-resolver",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            }
+        },
+        "version": "347189c6d0d28d6cad76de0c3d50b1cc06ad7891"
+    },
+    "eclipse_gen": {
+        "packages": {
+            "qbt_fringe.eclipse_gen.simple.main": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "simple/main",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.com.google.guava.guava": "Strong,HEAD",
+                    "qbt.lib.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "qbt_fringe.eclipse_gen.simple.release": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "simple/release",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.eclipse_gen.simple.main": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
+            }
+        },
+        "version": "81de05c287454cbcfb2ed0cf60a2d2fd3c917161"
+    },
+    "link_checker": {
+        "packages": {
+            "qbt_fringe.link_checker.main": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "main",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.org.ow2.asm.asm.all": "Strong,HEAD",
+                    "misc1.commons.options.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "qbt_fringe.link_checker.prerelease": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "prerelease",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.main": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
+            },
+            "qbt_fringe.link_checker.release": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "buildType": "COPY",
+                    "prefix": "release",
+                    "qbtEnv": "JDK"
+                }
+            }
+        },
+        "version": "3352b628806e44cfe75103d79a3a6a778334cfe9"
+    },
+    "linter": {
+        "packages": {
+            "qbt_fringe.linter.main": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "main",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "misc1.commons.options.main": "Strong,HEAD"
+                },
+                "verifyDeps": {
+                    "qbt_fringe.linter.main.lint/lint": 1
+                }
+            },
+            "qbt_fringe.linter.main.lint": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": ".main.lint",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.linter.main": "Weak,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "qbt_fringe.linter.release": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "release",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.linter.main": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
+            }
+        },
+        "version": "3b6ccbd81074f37e4ea5cbc02460cecdf57cda88"
+    },
+    "meta_tools": {
+        "packages": {
+            "meta_tools.main": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "main",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "qbt.app.cmd": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "meta_tools.release": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "release",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "meta_tools.main": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
+            }
+        },
+        "version": "f772df5b87baafd94707c295b9b10195f12c6c98"
+    },
+    "misc1": {
+        "packages": {
+            "misc1.commons.algo.main": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "commons.algo/main",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.com.google.guava.guava": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                },
+                "verifyDeps": {
+                    "misc1.commons.algo.test/test": 1
+                }
+            },
+            "misc1.commons.algo.test": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "commons.algo/test",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
+                    "misc1.commons.algo.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "misc1.commons.concurrent.main": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "commons.concurrent/main",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.org.slf4j.slf4j.api": "Strong,HEAD",
+                    "misc1.commons.core.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                },
+                "verifyDeps": {
+                    "misc1.commons.concurrent.test/test": 1
+                }
+            },
+            "misc1.commons.concurrent.test": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "commons.concurrent/test",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "misc1.commons.concurrent.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "misc1.commons.core.main": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "commons.core/main",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.com.google.guava.guava": "Strong,HEAD",
+                    "mc.org.apache.commons.commons.lang3": "Strong,HEAD"
+                },
+                "verifyDeps": {
+                    "misc1.commons.core.main.lint/lint": 1,
+                    "misc1.commons.core.test/test": 1
+                }
+            },
+            "misc1.commons.core.main.lint": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "commons.core/.main.lint",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "misc1.commons.core.main": "Weak,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "misc1.commons.core.test": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "commons.core/test",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "misc1.commons.core.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "misc1.commons.options.main": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "commons.options/main",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "misc1.commons.core.main": "Strong,HEAD"
+                },
+                "verifyDeps": {
+                    "misc1.commons.options.main.lint/lint": 1,
+                    "misc1.commons.options.test/test": 1
+                }
+            },
+            "misc1.commons.options.main.lint": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "commons.options/.main.lint",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "misc1.commons.options.main": "Weak,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "misc1.commons.options.test": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "commons.options/test",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "misc1.commons.options.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "misc1.commons.ph.main": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "commons.ph/main",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.org.slf4j.slf4j.api": "Strong,HEAD",
+                    "misc1.commons.core.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "misc1.third_party_tools.main": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "third_party_tools/main",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.org.apache.ivy.ivy": "Strong,HEAD",
+                    "mc.org.apache.maven.maven.artifact": "Strong,HEAD",
+                    "qbt.app.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                },
+                "verifyDeps": {
+                    "misc1.third_party_tools.test/test": 1
+                }
+            },
+            "misc1.third_party_tools.release": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "third_party_tools/release",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "misc1.third_party_tools.main": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
+            },
+            "misc1.third_party_tools.test": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "third_party_tools/test",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "misc1.third_party_tools.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            }
+        },
+        "version": "68dad858d7e9e8f88217d78ed7a1a1d92f354d58"
+    },
+    "pbt": {
+        "packages": {
+            "pbt.bin": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "bin"
+                },
+                "normalDeps": {
+                    "pbt.lib": "Strong,HEAD"
+                }
+            },
+            "pbt.lib": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "lib"
+                }
+            },
+            "pbt.release": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "release"
+                },
+                "normalDeps": {
+                    "pbt.bin": "Strong,HEAD"
+                }
+            }
+        },
+        "version": "df84bad7d18f3286a27bc555ff07cb5ff319e12c"
+    },
+    "qbt": {
+        "packages": {
+            "qbt.app.cmd": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "app/cmd",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "qbt.app.main": "Strong,HEAD"
+                }
+            },
+            "qbt.app.main": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "app/main",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.com.google.code.gson.gson": "Strong,HEAD",
+                    "mc.org.apache.httpcomponents.httpclient": "Strong,HEAD",
+                    "mc.org.codehaus.groovy.groovy.all": "Strong,HEAD",
+                    "misc1.commons.algo.main": "Strong,HEAD",
+                    "misc1.commons.concurrent.main": "Strong,HEAD",
+                    "misc1.commons.ph.main": "Strong,HEAD",
+                    "qbt.bin.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                },
+                "verifyDeps": {
+                    "qbt.app.test/test": 1
+                }
+            },
+            "qbt.app.test": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "app/test",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "qbt.app.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "qbt.bin.main": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "bin/main",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.org.slf4j.slf4j.log4j12": "Strong,HEAD",
+                    "misc1.commons.options.main": "Strong,HEAD",
+                    "qbt.lib.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                },
+                "verifyDeps": {
+                    "qbt.bin.test/test": 1
+                }
+            },
+            "qbt.bin.test": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "bin/test",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "qbt.bin.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "qbt.docs": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "docs",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "mc.org.commonjava.googlecode.markdown4j.markdown4j": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "qbt.lib.main": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "lib/main",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "misc1.commons.core.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                },
+                "verifyDeps": {
+                    "qbt.lib.test/test": 1
+                }
+            },
+            "qbt.lib.test": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "lib/test",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "qbt.lib.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "qbt.qbtbuildtool.com": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "qbtbuildtool.com"
+                },
+                "normalDeps": {
+                    "meta_tools.release": "Weak,HEAD",
+                    "qbt.docs": "Strong,HEAD"
+                }
+            },
+            "qbt.release": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "release",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt.app.cmd": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
+            }
+        },
+        "version": "5c3d060ba6747c8f190cc9d99b0a7189c747ba92"
+    },
+    "wrapper_generator": {
+        "packages": {
+            "qbt_fringe.wrapper_generator.main": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "main",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.com.google.guava.guava": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "qbt_fringe.wrapper_generator.prerelease": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "prefix": "prerelease",
+                    "qbtEnv": "JDK"
+                },
+                "normalDeps": {
+                    "qbt_fringe.wrapper_generator.main": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
+            },
+            "qbt_fringe.wrapper_generator.release": {
+                "metadata": {
+                    "archIndependent": "true",
+                    "buildType": "COPY",
+                    "prefix": "release",
+                    "qbtEnv": "JDK"
+                }
+            }
+        },
+        "version": "1ee173c1322b1fd7f89868d45cd31936cd3fea72"
+    }
+}
