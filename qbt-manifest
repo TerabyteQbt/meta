@@ -1,4 +1,4 @@
-3p,HEAD:17426feaa82cac64c6cb8265fc62fac4c41acefe
+3p,HEAD:59860fc1ecfa648ad8e2dafd2973c32b9e1dff92
     3p.gradle
         Metadata:archIndependent=true
         Metadata:buildType=COPY
@@ -6,6 +6,7 @@
     mc.ant.contrib.ant.contrib
         Metadata:archIndependent=true
         Metadata:prefix=mc/ant-contrib/ant-contrib
+        Metadata:qbtEnv=JDK
         Strong:mc.commons.httpclient.commons.httpclient,HEAD
         Strong:mc.org.apache.ant.ant,HEAD
         Strong:mc.org.apache.bcel.bcel,HEAD
@@ -13,44 +14,53 @@
     mc.cglib.cglib.nodep
         Metadata:archIndependent=true
         Metadata:prefix=mc/cglib/cglib-nodep
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.google.code.findbugs.jsr305
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.google.code.findbugs/jsr305
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.google.code.gson.gson
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.google.code.gson/gson
+        Metadata:qbtEnv=JDK
         Strong:mc.junit.junit,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.google.dexmaker.dexmaker
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.google.dexmaker/dexmaker
+        Metadata:qbtEnv=JDK
         Strong:mc.com.google.dexmaker.dexmaker.dx,HEAD
         Strong:mc.junit.junit,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.google.dexmaker.dexmaker.dx
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.google.dexmaker/dexmaker-dx
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.google.guava.guava
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.google.guava/guava
+        Metadata:qbtEnv=JDK
         Strong:mc.com.google.code.findbugs.jsr305,HEAD
         Strong:mc.javax.inject.javax.inject,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.jcraft.jsch
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch
+        Metadata:qbtEnv=JDK
         Strong:mc.com.jcraft.jzlib,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.jcraft.jsch.agentproxy
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch.agentproxy
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.jcraft.jsch.agentproxy.connector.factory
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch.agentproxy.connector-factory
+        Metadata:qbtEnv=JDK
         Strong:mc.com.jcraft.jsch.agentproxy.core,HEAD
         Strong:mc.com.jcraft.jsch.agentproxy.pageant,HEAD
         Strong:mc.com.jcraft.jsch.agentproxy.sshagent,HEAD
@@ -60,16 +70,19 @@
     mc.com.jcraft.jsch.agentproxy.core
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch.agentproxy.core
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.jcraft.jsch.agentproxy.jsch
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch.agentproxy.jsch
+        Metadata:qbtEnv=JDK
         Strong:mc.com.jcraft.jsch,HEAD
         Strong:mc.com.jcraft.jsch.agentproxy.core,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.jcraft.jsch.agentproxy.pageant
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch.agentproxy.pageant
+        Metadata:qbtEnv=JDK
         Strong:mc.com.jcraft.jsch.agentproxy.core,HEAD
         Strong:mc.net.java.dev.jna.jna,HEAD
         Strong:mc.net.java.dev.jna.platform,HEAD
@@ -77,11 +90,13 @@
     mc.com.jcraft.jsch.agentproxy.sshagent
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch.agentproxy.sshagent
+        Metadata:qbtEnv=JDK
         Strong:mc.com.jcraft.jsch.agentproxy.core,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.jcraft.jsch.agentproxy.usocket.jna
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch.agentproxy.usocket-jna
+        Metadata:qbtEnv=JDK
         Strong:mc.com.jcraft.jsch.agentproxy.core,HEAD
         Strong:mc.net.java.dev.jna.jna,HEAD
         Strong:mc.net.java.dev.jna.platform,HEAD
@@ -89,25 +104,30 @@
     mc.com.jcraft.jsch.agentproxy.usocket.nc
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jsch.agentproxy.usocket-nc
+        Metadata:qbtEnv=JDK
         Strong:mc.com.jcraft.jsch.agentproxy.core,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.com.jcraft.jzlib
         Metadata:archIndependent=true
         Metadata:prefix=mc/com.jcraft/jzlib
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.commons.codec.commons.codec
         Metadata:archIndependent=true
         Metadata:prefix=mc/commons-codec/commons-codec
+        Metadata:qbtEnv=JDK
         Strong:mc.junit.junit,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.commons.collections.commons.collections
         Metadata:archIndependent=true
         Metadata:prefix=mc/commons-collections/commons-collections
+        Metadata:qbtEnv=JDK
         Strong:mc.junit.junit,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.commons.httpclient.commons.httpclient
         Metadata:archIndependent=true
         Metadata:prefix=mc/commons-httpclient/commons-httpclient
+        Metadata:qbtEnv=JDK
         Strong:mc.commons.codec.commons.codec,HEAD
         Strong:mc.commons.logging.commons.logging,HEAD
         Strong:mc.junit.junit,HEAD
@@ -115,16 +135,19 @@
     mc.commons.io.commons.io
         Metadata:archIndependent=true
         Metadata:prefix=mc/commons-io/commons-io
+        Metadata:qbtEnv=JDK
         Strong:mc.junit.junit,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.commons.lang.commons.lang
         Metadata:archIndependent=true
         Metadata:prefix=mc/commons-lang/commons-lang
+        Metadata:qbtEnv=JDK
         Strong:mc.junit.junit,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.commons.logging.commons.logging
         Metadata:archIndependent=true
         Metadata:prefix=mc/commons-logging/commons-logging
+        Metadata:qbtEnv=JDK
         Strong:mc.javax.servlet.servlet.api,HEAD
         Strong:mc.junit.junit,HEAD
         Strong:mc.log4j.log4j,HEAD
@@ -133,11 +156,13 @@
     mc.commons.net.commons.net
         Metadata:archIndependent=true
         Metadata:prefix=mc/commons-net/commons-net
+        Metadata:qbtEnv=JDK
         Strong:mc.oro.oro,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.commons.vfs.commons.vfs
         Metadata:archIndependent=true
         Metadata:prefix=mc/commons-vfs/commons-vfs
+        Metadata:qbtEnv=JDK
         Strong:mc.com.jcraft.jsch,HEAD
         Strong:mc.commons.collections.commons.collections,HEAD
         Strong:mc.commons.httpclient.commons.httpclient,HEAD
@@ -151,36 +176,44 @@
     mc.hsqldb.hsqldb
         Metadata:archIndependent=true
         Metadata:prefix=mc/hsqldb/hsqldb
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.jakarta.regexp.jakarta.regexp
         Metadata:archIndependent=true
         Metadata:prefix=mc/jakarta-regexp/jakarta-regexp
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.javax.activation.activation
         Metadata:archIndependent=true
         Metadata:prefix=mc/javax.activation/activation
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.javax.inject.javax.inject
         Metadata:archIndependent=true
         Metadata:prefix=mc/javax.inject/javax.inject
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.javax.mail.mail
         Metadata:archIndependent=true
         Metadata:prefix=mc/javax.mail/mail
+        Metadata:qbtEnv=JDK
         Strong:mc.javax.activation.activation,HEAD
         Strong:mc.junit.junit,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.javax.servlet.servlet.api
         Metadata:archIndependent=true
         Metadata:prefix=mc/javax.servlet/servlet-api
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.jaxen.jaxen
         Metadata:archIndependent=true
         Metadata:prefix=mc/jaxen/jaxen
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.jdom.jdom
         Metadata:archIndependent=true
         Metadata:prefix=mc/jdom/jdom
+        Metadata:qbtEnv=JDK
         Strong:mc.jaxen.jaxen,HEAD
         Strong:mc.saxpath.saxpath,HEAD
         Strong:mc.xalan.xalan,HEAD
@@ -190,11 +223,13 @@
     mc.junit.junit
         Metadata:archIndependent=true
         Metadata:prefix=mc/junit/junit
+        Metadata:qbtEnv=JDK
         Strong:mc.org.hamcrest.hamcrest.core,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.log4j.apache.log4j.extras
         Metadata:archIndependent=true
         Metadata:prefix=mc/log4j/apache-log4j-extras
+        Metadata:qbtEnv=JDK
         Strong:mc.hsqldb.hsqldb,HEAD
         Strong:mc.junit.junit,HEAD
         Strong:mc.log4j.log4j,HEAD
@@ -203,6 +238,7 @@
     mc.log4j.log4j
         Metadata:archIndependent=true
         Metadata:prefix=mc/log4j/log4j
+        Metadata:qbtEnv=JDK
         Strong:mc.javax.mail.mail,HEAD
         Strong:mc.junit.junit,HEAD
         Strong:mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec,HEAD
@@ -211,19 +247,23 @@
     mc.logkit.logkit
         Metadata:archIndependent=true
         Metadata:prefix=mc/logkit/logkit
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.net.java.dev.jna.jna
         Metadata:archIndependent=true
         Metadata:prefix=mc/net.java.dev.jna/jna
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.net.java.dev.jna.platform
         Metadata:archIndependent=true
         Metadata:prefix=mc/net.java.dev.jna/platform
+        Metadata:qbtEnv=JDK
         Strong:mc.net.java.dev.jna.jna,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.apache.ant.ant
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.ant/ant
+        Metadata:qbtEnv=JDK
         Strong:mc.junit.junit,HEAD
         Strong:mc.org.apache.ant.ant.launcher,HEAD
         Strong:mc.xerces.xercesImpl,HEAD
@@ -232,11 +272,13 @@
     mc.org.apache.ant.ant.launcher
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.ant/ant-launcher
+        Metadata:qbtEnv=JDK
         Strong:mc.junit.junit,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.apache.ant.ant.nodeps
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.ant/ant-nodeps
+        Metadata:qbtEnv=JDK
         Strong:mc.junit.junit,HEAD
         Strong:mc.org.apache.ant.ant,HEAD
         Strong:mc.xerces.xercesImpl,HEAD
@@ -245,12 +287,14 @@
     mc.org.apache.ant.ant.testutil
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.ant/ant-testutil
+        Metadata:qbtEnv=JDK
         Strong:mc.junit.junit,HEAD
         Strong:mc.org.apache.ant.ant,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.apache.ant.ant.trax
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.ant/ant-trax
+        Metadata:qbtEnv=JDK
         Strong:mc.junit.junit,HEAD
         Strong:mc.org.apache.ant.ant,HEAD
         Strong:mc.xalan.xalan,HEAD
@@ -260,11 +304,13 @@
     mc.org.apache.bcel.bcel
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.bcel/bcel
+        Metadata:qbtEnv=JDK
         Strong:mc.jakarta.regexp.jakarta.regexp,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.apache.commons.commons.lang3
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.commons/commons-lang3
+        Metadata:qbtEnv=JDK
         Strong:mc.commons.io.commons.io,HEAD
         Strong:mc.junit.junit,HEAD
         Strong:mc.org.easymock.easymock,HEAD
@@ -272,10 +318,12 @@
     mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.geronimo.specs/geronimo-jms_1.1_spec
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.apache.httpcomponents.httpclient
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.httpcomponents/httpclient
+        Metadata:qbtEnv=JDK
         Strong:mc.commons.codec.commons.codec,HEAD
         Strong:mc.commons.logging.commons.logging,HEAD
         Strong:mc.junit.junit,HEAD
@@ -285,6 +333,7 @@
     mc.org.apache.httpcomponents.httpcore
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.httpcomponents/httpcore
+        Metadata:qbtEnv=JDK
         Strong:mc.commons.logging.commons.logging,HEAD
         Strong:mc.junit.junit,HEAD
         Strong:mc.org.mockito.mockito.core,HEAD
@@ -292,6 +341,7 @@
     mc.org.apache.ivy.ivy
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.ivy/ivy
+        Metadata:qbtEnv=JDK
         Strong:mc.ant.contrib.ant.contrib,HEAD
         Strong:mc.com.jcraft.jsch,HEAD
         Strong:mc.com.jcraft.jsch.agentproxy,HEAD
@@ -315,34 +365,41 @@
     mc.org.apache.maven.maven.artifact
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.apache.maven/maven-artifact
+        Metadata:qbtEnv=JDK
         Strong:mc.junit.junit,HEAD
         Strong:mc.org.codehaus.plexus.plexus.utils,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.bouncycastle.bcpg.jdk14
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.bouncycastle/bcpg-jdk14
+        Metadata:qbtEnv=JDK
         Strong:mc.org.bouncycastle.bcprov.jdk14,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.bouncycastle.bcprov.jdk14
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.bouncycastle/bcprov-jdk14
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.codehaus.groovy.groovy.all
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.codehaus.groovy/groovy-all
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.codehaus.plexus.plexus.utils
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.codehaus.plexus/plexus-utils
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.commonjava.googlecode.markdown4j.markdown4j
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.commonjava.googlecode.markdown4j/markdown4j
+        Metadata:qbtEnv=JDK
         Strong:mc.junit.junit,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.easymock.easymock
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.easymock/easymock
+        Metadata:qbtEnv=JDK
         Strong:mc.cglib.cglib.nodep,HEAD
         Strong:mc.com.google.dexmaker.dexmaker,HEAD
         Strong:mc.junit.junit,HEAD
@@ -351,10 +408,12 @@
     mc.org.hamcrest.hamcrest.core
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.hamcrest/hamcrest-core
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.mockito.mockito.core
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.mockito/mockito-core
+        Metadata:qbtEnv=JDK
         Strong:mc.org.apache.ant.ant,HEAD
         Strong:mc.org.hamcrest.hamcrest.core,HEAD
         Strong:mc.org.objenesis.objenesis,HEAD
@@ -362,20 +421,24 @@
     mc.org.objenesis.objenesis
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.objenesis/objenesis
+        Metadata:qbtEnv=JDK
         Strong:mc.junit.junit,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.ow2.asm.asm.all
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.ow2.asm/asm-all
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.slf4j.slf4j.api
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.slf4j/slf4j-api
+        Metadata:qbtEnv=JDK
         Strong:mc.junit.junit,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.org.slf4j.slf4j.log4j12
         Metadata:archIndependent=true
         Metadata:prefix=mc/org.slf4j/slf4j-log4j12
+        Metadata:qbtEnv=JDK
         Strong:mc.junit.junit,HEAD
         Strong:mc.log4j.log4j,HEAD
         Strong:mc.org.slf4j.slf4j.api,HEAD
@@ -383,14 +446,17 @@
     mc.oro.oro
         Metadata:archIndependent=true
         Metadata:prefix=mc/oro/oro
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.saxpath.saxpath
         Metadata:archIndependent=true
         Metadata:prefix=mc/saxpath/saxpath
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.xalan.xalan
         Metadata:archIndependent=true
         Metadata:prefix=mc/xalan/xalan
+        Metadata:qbtEnv=JDK
         Strong:mc.org.apache.bcel.bcel,HEAD
         Strong:mc.xerces.xercesImpl,HEAD
         Strong:mc.xml.apis.xml.apis,HEAD
@@ -398,25 +464,30 @@
     mc.xerces.xercesImpl
         Metadata:archIndependent=true
         Metadata:prefix=mc/xerces/xercesImpl
+        Metadata:qbtEnv=JDK
         Strong:mc.xml.apis.xml.apis,HEAD
         Strong:mc.xml.resolver.xml.resolver,HEAD
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.xerces.xmlParserAPIs
         Metadata:archIndependent=true
         Metadata:prefix=mc/xerces/xmlParserAPIs
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.xml.apis.xml.apis
         Metadata:archIndependent=true
         Metadata:prefix=mc/xml-apis/xml-apis
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
     mc.xml.resolver.xml.resolver
         Metadata:archIndependent=true
         Metadata:prefix=mc/xml-resolver/xml-resolver
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.release,HEAD
-eclipse_gen,HEAD:f97152507282e029090f6524fac2eb0c41ee7418
+eclipse_gen,HEAD:a91800055e0039c60565e6cffd6c80277ae75b66
     qbt_fringe.eclipse_gen.simple.main
         Metadata:archIndependent=true
         Metadata:prefix=simple/main
+        Metadata:qbtEnv=JDK
         Strong:mc.com.google.guava.guava,HEAD
         Strong:qbt.lib.main,HEAD
         Weak:3p.gradle,HEAD
@@ -424,12 +495,14 @@ eclipse_gen,HEAD:f97152507282e029090f6524fac2eb0c41ee7418
     qbt_fringe.eclipse_gen.simple.release
         Metadata:archIndependent=true
         Metadata:prefix=simple/release
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.eclipse_gen.simple.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-link_checker,HEAD:7fd4130a940d9f0297a013bc9ae84f770a3605f9
+link_checker,HEAD:33447625c7a776206e0a72cda36bf1acf952687c
     qbt_fringe.link_checker.main
         Metadata:archIndependent=true
         Metadata:prefix=main
+        Metadata:qbtEnv=JDK
         Strong:mc.org.ow2.asm.asm.all,HEAD
         Strong:misc1.commons.options.main,HEAD
         Weak:3p.gradle,HEAD
@@ -437,45 +510,53 @@ link_checker,HEAD:7fd4130a940d9f0297a013bc9ae84f770a3605f9
     qbt_fringe.link_checker.prerelease
         Metadata:archIndependent=true
         Metadata:prefix=prerelease
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.link_checker.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
     qbt_fringe.link_checker.release
         Metadata:archIndependent=true
         Metadata:buildType=COPY
         Metadata:prefix=release
-linter,HEAD:082fada66b6bb74ed7de640b97136e67a7099ca3
+        Metadata:qbtEnv=JDK
+linter,HEAD:78f7ce227a527d2851db0608da08f05af65a7e69
     qbt_fringe.linter.main
         Metadata:archIndependent=true
         Metadata:prefix=main
+        Metadata:qbtEnv=JDK
         Strong:misc1.commons.options.main,HEAD
         Weak:3p.gradle,HEAD
         Verify:qbt_fringe.linter.main.lint,HEAD,lint
     qbt_fringe.linter.main.lint
         Metadata:archIndependent=true
         Metadata:prefix=.main.lint
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.linter.main,HEAD
         Weak:qbt_fringe.linter.release,HEAD
     qbt_fringe.linter.release
         Metadata:archIndependent=true
         Metadata:prefix=release
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.linter.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-meta_tools,HEAD:b8c37fb2f96923f603deec07a1fe3eab8e2aa91f
+meta_tools,HEAD:3893cf392ad5f8c4d21b20dcd5d4c68b33577014
     meta_tools.main
         Metadata:archIndependent=true
         Metadata:prefix=main
+        Metadata:qbtEnv=JDK
         Strong:qbt.app.cmd,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
     meta_tools.release
         Metadata:archIndependent=true
         Metadata:prefix=release
+        Metadata:qbtEnv=JDK
         Weak:meta_tools.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-misc1,HEAD:59b953352b04d6eeca7cf0df15a530abc3d913a6
+misc1,HEAD:49763d41c894c59a5996c48ebb11735e720fe469
     misc1.commons.algo.main
         Metadata:archIndependent=true
         Metadata:prefix=commons.algo/main
+        Metadata:qbtEnv=JDK
         Strong:mc.com.google.guava.guava,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
@@ -483,6 +564,7 @@ misc1,HEAD:59b953352b04d6eeca7cf0df15a530abc3d913a6
     misc1.commons.algo.test
         Metadata:archIndependent=true
         Metadata:prefix=commons.algo/test
+        Metadata:qbtEnv=JDK
         Strong:mc.junit.junit,HEAD
         Strong:misc1.commons.algo.main,HEAD
         Weak:3p.gradle,HEAD
@@ -490,6 +572,7 @@ misc1,HEAD:59b953352b04d6eeca7cf0df15a530abc3d913a6
     misc1.commons.concurrent.main
         Metadata:archIndependent=true
         Metadata:prefix=commons.concurrent/main
+        Metadata:qbtEnv=JDK
         Strong:mc.org.slf4j.slf4j.api,HEAD
         Strong:misc1.commons.core.main,HEAD
         Weak:3p.gradle,HEAD
@@ -498,12 +581,14 @@ misc1,HEAD:59b953352b04d6eeca7cf0df15a530abc3d913a6
     misc1.commons.concurrent.test
         Metadata:archIndependent=true
         Metadata:prefix=commons.concurrent/test
+        Metadata:qbtEnv=JDK
         Strong:misc1.commons.concurrent.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
     misc1.commons.core.main
         Metadata:archIndependent=true
         Metadata:prefix=commons.core/main
+        Metadata:qbtEnv=JDK
         Strong:mc.com.google.guava.guava,HEAD
         Strong:mc.org.apache.commons.commons.lang3,HEAD
         Weak:3p.gradle,HEAD
@@ -512,17 +597,20 @@ misc1,HEAD:59b953352b04d6eeca7cf0df15a530abc3d913a6
     misc1.commons.core.main.lint
         Metadata:archIndependent=true
         Metadata:prefix=commons.core/.main.lint
+        Metadata:qbtEnv=JDK
         Weak:misc1.commons.core.main,HEAD
         Weak:qbt_fringe.linter.release,HEAD
     misc1.commons.core.test
         Metadata:archIndependent=true
         Metadata:prefix=commons.core/test
+        Metadata:qbtEnv=JDK
         Strong:misc1.commons.core.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
     misc1.commons.options.main
         Metadata:archIndependent=true
         Metadata:prefix=commons.options/main
+        Metadata:qbtEnv=JDK
         Strong:misc1.commons.core.main,HEAD
         Weak:3p.gradle,HEAD
         Verify:misc1.commons.options.main.lint,HEAD,lint
@@ -530,17 +618,20 @@ misc1,HEAD:59b953352b04d6eeca7cf0df15a530abc3d913a6
     misc1.commons.options.main.lint
         Metadata:archIndependent=true
         Metadata:prefix=commons.options/.main.lint
+        Metadata:qbtEnv=JDK
         Weak:misc1.commons.options.main,HEAD
         Weak:qbt_fringe.linter.release,HEAD
     misc1.commons.options.test
         Metadata:archIndependent=true
         Metadata:prefix=commons.options/test
+        Metadata:qbtEnv=JDK
         Strong:misc1.commons.options.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
     misc1.commons.ph.main
         Metadata:archIndependent=true
         Metadata:prefix=commons.ph/main
+        Metadata:qbtEnv=JDK
         Strong:mc.org.slf4j.slf4j.api,HEAD
         Strong:misc1.commons.core.main,HEAD
         Weak:3p.gradle,HEAD
@@ -548,6 +639,7 @@ misc1,HEAD:59b953352b04d6eeca7cf0df15a530abc3d913a6
     misc1.third_party_tools.main
         Metadata:archIndependent=true
         Metadata:prefix=third_party_tools/main
+        Metadata:qbtEnv=JDK
         Strong:mc.org.apache.ivy.ivy,HEAD
         Strong:mc.org.apache.maven.maven.artifact,HEAD
         Strong:qbt.app.main,HEAD
@@ -557,11 +649,13 @@ misc1,HEAD:59b953352b04d6eeca7cf0df15a530abc3d913a6
     misc1.third_party_tools.release
         Metadata:archIndependent=true
         Metadata:prefix=third_party_tools/release
+        Metadata:qbtEnv=JDK
         Weak:misc1.third_party_tools.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
     misc1.third_party_tools.test
         Metadata:archIndependent=true
         Metadata:prefix=third_party_tools/test
+        Metadata:qbtEnv=JDK
         Strong:misc1.third_party_tools.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
@@ -577,15 +671,17 @@ pbt,HEAD:df84bad7d18f3286a27bc555ff07cb5ff319e12c
         Metadata:archIndependent=true
         Metadata:prefix=release
         Strong:pbt.bin,HEAD
-qbt,HEAD:7a744c730d0520120b13eec94485fe1485e3a540
+qbt,HEAD:fffd40be665a712da29b807a6d3ce1992a757767
     qbt.app.cmd
         Metadata:archIndependent=true
         Metadata:prefix=app/cmd
+        Metadata:qbtEnv=JDK
         Strong:qbt.app.main,HEAD
         Weak:3p.gradle,HEAD
     qbt.app.main
         Metadata:archIndependent=true
         Metadata:prefix=app/main
+        Metadata:qbtEnv=JDK
         Strong:mc.com.google.code.gson.gson,HEAD
         Strong:mc.org.apache.httpcomponents.httpclient,HEAD
         Strong:mc.org.codehaus.groovy.groovy.all,HEAD
@@ -599,12 +695,14 @@ qbt,HEAD:7a744c730d0520120b13eec94485fe1485e3a540
     qbt.app.test
         Metadata:archIndependent=true
         Metadata:prefix=app/test
+        Metadata:qbtEnv=JDK
         Strong:qbt.app.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
     qbt.bin.main
         Metadata:archIndependent=true
         Metadata:prefix=bin/main
+        Metadata:qbtEnv=JDK
         Strong:mc.org.slf4j.slf4j.log4j12,HEAD
         Strong:misc1.commons.options.main,HEAD
         Strong:qbt.lib.main,HEAD
@@ -614,17 +712,20 @@ qbt,HEAD:7a744c730d0520120b13eec94485fe1485e3a540
     qbt.bin.test
         Metadata:archIndependent=true
         Metadata:prefix=bin/test
+        Metadata:qbtEnv=JDK
         Strong:qbt.bin.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
     qbt.docs
         Metadata:archIndependent=true
         Metadata:prefix=docs
+        Metadata:qbtEnv=JDK
         Strong:mc.org.commonjava.googlecode.markdown4j.markdown4j,HEAD
         Weak:qbt_fringe.linter.release,HEAD
     qbt.lib.main
         Metadata:archIndependent=true
         Metadata:prefix=lib/main
+        Metadata:qbtEnv=JDK
         Strong:misc1.commons.core.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
@@ -632,6 +733,7 @@ qbt,HEAD:7a744c730d0520120b13eec94485fe1485e3a540
     qbt.lib.test
         Metadata:archIndependent=true
         Metadata:prefix=lib/test
+        Metadata:qbtEnv=JDK
         Strong:qbt.lib.main,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
@@ -643,21 +745,25 @@ qbt,HEAD:7a744c730d0520120b13eec94485fe1485e3a540
     qbt.release
         Metadata:archIndependent=true
         Metadata:prefix=release
+        Metadata:qbtEnv=JDK
         Weak:qbt.app.cmd,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-wrapper_generator,HEAD:9322ba0164d17939131d2d1d8944d79b76c81a14
+wrapper_generator,HEAD:11ecb1821fc4e33a2e3c1064498a57b9e9c69726
     qbt_fringe.wrapper_generator.main
         Metadata:archIndependent=true
         Metadata:prefix=main
+        Metadata:qbtEnv=JDK
         Strong:mc.com.google.guava.guava,HEAD
         Weak:3p.gradle,HEAD
         Weak:qbt_fringe.linter.release,HEAD
     qbt_fringe.wrapper_generator.prerelease
         Metadata:archIndependent=true
         Metadata:prefix=prerelease
+        Metadata:qbtEnv=JDK
         Weak:qbt_fringe.wrapper_generator.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
     qbt_fringe.wrapper_generator.release
         Metadata:archIndependent=true
         Metadata:buildType=COPY
         Metadata:prefix=release
+        Metadata:qbtEnv=JDK
