@@ -538,7 +538,7 @@ linter,HEAD:3b6ccbd81074f37e4ea5cbc02460cecdf57cda88
         Metadata:qbtEnv=JDK
         Weak:qbt_fringe.linter.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-meta_tools,HEAD:67168502fac03452b7a5794c378224e0dc8c858a
+meta_tools,HEAD:f772df5b87baafd94707c295b9b10195f12c6c98
     meta_tools.main
         Metadata:archIndependent=true
         Metadata:prefix=main
@@ -552,7 +552,7 @@ meta_tools,HEAD:67168502fac03452b7a5794c378224e0dc8c858a
         Metadata:qbtEnv=JDK
         Weak:meta_tools.main,HEAD
         Weak:qbt_fringe.wrapper_generator.release,HEAD
-misc1,HEAD:10e6cd5ad0eac88a6ec40b291f33b1a0929e9174
+misc1,HEAD:68dad858d7e9e8f88217d78ed7a1a1d92f354d58
     misc1.commons.algo.main
         Metadata:archIndependent=true
         Metadata:prefix=commons.algo/main
@@ -671,7 +671,7 @@ pbt,HEAD:df84bad7d18f3286a27bc555ff07cb5ff319e12c
         Metadata:archIndependent=true
         Metadata:prefix=release
         Strong:pbt.bin,HEAD
-qbt,HEAD:fbc7e83e64ae37c3f70127f965b1f3b9b819c468
+qbt,HEAD:5c3d060ba6747c8f190cc9d99b0a7189c747ba92
     qbt.app.cmd
         Metadata:archIndependent=true
         Metadata:prefix=app/cmd
