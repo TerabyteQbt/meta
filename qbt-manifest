@@ -2249,6 +2249,7 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
                     "misc1.commons.concurrent.main": "Strong,HEAD",
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
@@ -2294,6 +2295,7 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
                     "misc1.commons.core.main": "Strong,HEAD",
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
@@ -2308,6 +2310,7 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
                     "misc1.commons.core.main": "Strong,HEAD"
                 },
                 "verifyDeps": {
@@ -2560,6 +2563,7 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
                     "qbt.lib.main": "Strong,HEAD",
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
