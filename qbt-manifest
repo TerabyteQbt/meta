@@ -2048,7 +2048,47 @@
         "version": "4f24ec5684b0d65a9421024e9218d9b37719ed1a"
     },
     "org.cmyers.public": {
-        "version": "1ed3b1b96292b1346d737b5ec25f5a3e987af53d"
+        "packages": {
+            "org.cmyers.games.threes.main": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "games/threes/main",
+                    "qbtEnv": {
+                        "JDK": 1
+                    }
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.com.google.guava.guava": "Strong,HEAD",
+                    "mc.org.apache.commons.commons.lang3": "Strong,HEAD",
+                    "misc1.commons.core.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                },
+                "verifyDeps": {
+                    "org.cmyers.games.threes.test/test": 1
+                }
+            },
+            "org.cmyers.games.threes.test": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "games/threes/test",
+                    "qbtEnv": {
+                        "JDK": 1
+                    }
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
+                    "misc1.commons.concurrent.main": "Strong,HEAD",
+                    "org.cmyers.games.threes.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                },
+                "verifyDeps": {
+                    "org.cmyers.games.threes.test/test": 1
+                }
+            }
+        },
+        "version": "4a7689b58fc65b89b4432748fcc56bbf8597cfed"
     },
     "pbt": {
         "packages": {
