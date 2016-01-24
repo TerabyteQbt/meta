@@ -2068,6 +2068,19 @@
                     "org.cmyers.games.threes.test/test": 1
                 }
             },
+            "org.cmyers.games.threes.release": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "games/threes/release",
+                    "qbtEnv": {
+                        "JDK": 1
+                    }
+                },
+                "normalDeps": {
+                    "org.cmyers.games.threes.main": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
+            },
             "org.cmyers.games.threes.test": {
                 "metadata": {
                     "archIndependent": true,
@@ -2088,7 +2101,7 @@
                 }
             }
         },
-        "version": "d130c48da5b7896c38cf843e5586b3070b4777b9"
+        "version": "78a7a84afd4c4773569ebe97d94007d20fbc1497"
     },
     "pbt": {
         "packages": {
