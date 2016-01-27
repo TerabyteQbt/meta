@@ -2099,9 +2099,32 @@
                 "verifyDeps": {
                     "org.cmyers.games.threes.test/test": 1
                 }
+            },
+            "qbt.docs": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "qbt/docs",
+                    "qbtEnv": {
+                        "JDK": 1
+                    }
+                },
+                "normalDeps": {
+                    "mc.org.commonjava.googlecode.markdown4j.markdown4j": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "qbt.qbtbuildtool.com": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "qbt/qbtbuildtool.com"
+                },
+                "normalDeps": {
+                    "meta_tools.release": "Weak,HEAD",
+                    "qbt.docs": "Strong,HEAD"
+                }
             }
         },
-        "version": "8c2d74fdf329f7d859248038208aad4f938c5160"
+        "version": "ddad819e46191cba72d4f29991f8f43ccd034afd"
     },
     "pbt": {
         "packages": {
@@ -2217,19 +2240,6 @@
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
-            "qbt.docs": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "docs",
-                    "qbtEnv": {
-                        "JDK": 1
-                    }
-                },
-                "normalDeps": {
-                    "mc.org.commonjava.googlecode.markdown4j.markdown4j": "Strong,HEAD",
-                    "qbt_fringe.linter.release": "Weak,HEAD"
-                }
-            },
             "qbt.lib.main": {
                 "metadata": {
                     "archIndependent": true,
@@ -2262,16 +2272,6 @@
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
-            "qbt.qbtbuildtool.com": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "qbtbuildtool.com"
-                },
-                "normalDeps": {
-                    "meta_tools.release": "Weak,HEAD",
-                    "qbt.docs": "Strong,HEAD"
-                }
-            },
             "qbt.release": {
                 "metadata": {
                     "archIndependent": true,
@@ -2286,7 +2286,7 @@
                 }
             }
         },
-        "version": "108483d89130f92f9cf9d4b591a3d40b87eaea72"
+        "version": "b2a86ab0597caf407350495794f71f903d3ee78c"
     },
     "wrapper_generator": {
         "packages": {
