@@ -1823,7 +1823,7 @@
                 }
             }
         },
-        "version": "8fc5ad11606b47d6bb093875f430444b82f86931"
+        "version": "7a283d78c1fdd0e22675a459688e46da1b13e5b1"
     },
     "misc1": {
         "packages": {
@@ -2045,7 +2045,7 @@
                 }
             }
         },
-        "version": "0f60cd1fb6ddc09eca0642b6305f0c02dce51ddc"
+        "version": "647368599cacb3d6f861fba8af430d8709538e36"
     },
     "org.cmyers.public": {
         "version": "1ed3b1b96292b1346d737b5ec25f5a3e987af53d"
@@ -2164,19 +2164,6 @@
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
-            "qbt.docs": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "docs",
-                    "qbtEnv": {
-                        "JDK": "1_8"
-                    }
-                },
-                "normalDeps": {
-                    "mc.org.commonjava.googlecode.markdown4j.markdown4j": "Strong,HEAD",
-                    "qbt_fringe.linter.release": "Weak,HEAD"
-                }
-            },
             "qbt.lib.main": {
                 "metadata": {
                     "archIndependent": true,
@@ -2209,16 +2196,6 @@
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
-            "qbt.qbtbuildtool.com": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "qbtbuildtool.com"
-                },
-                "normalDeps": {
-                    "meta_tools.release": "Weak,HEAD",
-                    "qbt.docs": "Strong,HEAD"
-                }
-            },
             "qbt.release": {
                 "metadata": {
                     "archIndependent": true,
@@ -2233,7 +2210,7 @@
                 }
             }
         },
-        "version": "f10e031b6f8c07ce84843c1100e1f3d834cf2816"
+        "version": "ef16679d198d75ea86015011ce43c375665eef9d"
     },
     "wrapper_generator": {
         "packages": {
