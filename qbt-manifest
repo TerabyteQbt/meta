@@ -2047,7 +2047,26 @@
         "version": "647368599cacb3d6f861fba8af430d8709538e36"
     },
     "org.cmyers.public": {
-        "version": "1ed3b1b96292b1346d737b5ec25f5a3e987af53d"
+        "packages": {
+            "qbt.docs": {
+                "metadata": {
+                    "prefix": "qbt/docs"
+                },
+                "normalDeps": {
+                    "mc.org.commonjava.googlecode.markdown4j.markdown4j": "Strong,HEAD"
+                }
+            },
+            "qbt.qbtbuildtool.com": {
+                "metadata": {
+                    "prefix": "qbt/qbtbuildtool.com"
+                },
+                "normalDeps": {
+                    "meta_tools.release": "Weak,HEAD",
+                    "qbt.docs": "Strong,HEAD"
+                }
+            }
+        },
+        "version": "7a86eda25631e186fabcb2a9cf055cf695b7bde4"
     },
     "pbt": {
         "packages": {
