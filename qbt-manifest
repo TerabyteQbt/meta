@@ -2046,6 +2046,47 @@
         },
         "version": "647368599cacb3d6f861fba8af430d8709538e36"
     },
+    "org.cmyers.examples": {
+        "packages": {
+            "org.cmyers.examples.python.app": {
+                "metadata": {
+                    "prefix": "python/app",
+                    "qbtEnv": {
+                        "PYTHON": "2_7"
+                    }
+                },
+                "normalDeps": {
+                    "org.cmyers.examples.python.lib": "Strong,HEAD",
+                    "pypi.wheel": "Weak,HEAD"
+                }
+            },
+            "org.cmyers.examples.python.lib": {
+                "metadata": {
+                    "prefix": "python/lib",
+                    "qbtEnv": {
+                        "PYTHON": "2_7"
+                    }
+                },
+                "normalDeps": {
+                    "pypi.wheel": "Weak,HEAD"
+                }
+            },
+            "org.cmyers.examples.python.release": {
+                "metadata": {
+                    "prefix": "python/release",
+                    "qbtEnv": {
+                        "PYTHON": "2_7"
+                    }
+                },
+                "normalDeps": {
+                    "org.cmyers.examples.python.app": "Strong,HEAD",
+                    "pypi.virtualenv": "Strong,HEAD",
+                    "pypi.wheel": "Weak,HEAD"
+                }
+            }
+        },
+        "version": "b394811c25c47da453686cf2aec0fb4cdc11e07c"
+    },
     "pbt": {
         "packages": {
             "pbt.bin": {
