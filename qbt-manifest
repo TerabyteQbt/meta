@@ -2075,6 +2075,16 @@
         },
         "version": "df84bad7d18f3286a27bc555ff07cb5ff319e12c"
     },
+    "pypi": {
+        "packages": {
+            "pypi.wheel": {
+                "metadata": {
+                    "prefix": "wheel"
+                }
+            }
+        },
+        "version": "20a839e8a1afb5730e84477e188915a44a9205bf"
+    },
     "qbt": {
         "packages": {
             "qbt.app.cmd": {
