@@ -2119,6 +2119,11 @@
     },
     "pypi": {
         "packages": {
+            "pypi.unittest2": {
+                "metadata": {
+                    "prefix": "unittest2"
+                }
+            },
             "pypi.virtualenv": {
                 "metadata": {
                     "prefix": "virtualenv"
@@ -2130,7 +2135,7 @@
                 }
             }
         },
-        "version": "47c453a1f871d55229e2bbcf529c564aaac04104"
+        "version": "6b902f3e677383530ae28129db5a3a4c3d59f025"
     },
     "qbt": {
         "packages": {
