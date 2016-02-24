@@ -2077,13 +2077,18 @@
     },
     "pypi": {
         "packages": {
+            "pypi.virtualenv": {
+                "metadata": {
+                    "prefix": "virtualenv"
+                }
+            },
             "pypi.wheel": {
                 "metadata": {
                     "prefix": "wheel"
                 }
             }
         },
-        "version": "20a839e8a1afb5730e84477e188915a44a9205bf"
+        "version": "47c453a1f871d55229e2bbcf529c564aaac04104"
     },
     "qbt": {
         "packages": {
