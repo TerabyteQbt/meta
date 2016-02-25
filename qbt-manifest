@@ -2049,6 +2049,57 @@
     },
     "org.cmyers.examples": {
         "packages": {
+            "org.cmyers.examples.java.app": {
+                "metadata": {
+                    "prefix": "java/app",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "org.cmyers.examples.java.lib": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "org.cmyers.examples.java.lib": {
+                "metadata": {
+                    "prefix": "java/lib",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "org.cmyers.examples.java.release": {
+                "metadata": {
+                    "prefix": "java/release",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "org.cmyers.examples.java.app": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
+            },
+            "org.cmyers.examples.java.test": {
+                "metadata": {
+                    "prefix": "java/test",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
+                    "org.cmyers.examples.java.lib": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
             "org.cmyers.examples.python.app": {
                 "metadata": {
                     "prefix": "python/app",
@@ -2102,7 +2153,7 @@
                 }
             }
         },
-        "version": "fb26274806d08daec614afe53348705e6e44ad8d"
+        "version": "abfb5a8abcf3ebbf210893845c9c99f27b581e35"
     },
     "pbt": {
         "packages": {
