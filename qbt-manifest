@@ -2121,22 +2121,9 @@
                 },
                 "normalDeps": {
                     "pypi.wheel": "Weak,HEAD"
-                }
-            },
-            "org.cmyers.examples.python.libtest": {
-                "metadata": {
-                    "prefix": "python/libtest",
-                    "qbtEnv": {
-                        "PYTHON": "2_7"
-                    }
-                },
-                "normalDeps": {
-                    "org.cmyers.examples.python.lib": "Strong,HEAD",
-                    "pypi.unittest2": "Strong,HEAD",
-                    "pypi.virtualenv": "Strong,HEAD"
                 },
                 "verifyDeps": {
-                    "org.cmyers.examples.python.lib/test": 1
+                    "org.cmyers.examples.python.test/test": 1
                 }
             },
             "org.cmyers.examples.python.release": {
@@ -2151,9 +2138,22 @@
                     "pypi.virtualenv": "Strong,HEAD",
                     "pypi.wheel": "Weak,HEAD"
                 }
+            },
+            "org.cmyers.examples.python.test": {
+                "metadata": {
+                    "prefix": "python/test",
+                    "qbtEnv": {
+                        "PYTHON": "2_7"
+                    }
+                },
+                "normalDeps": {
+                    "org.cmyers.examples.python.lib": "Strong,HEAD",
+                    "pypi.unittest2": "Strong,HEAD",
+                    "pypi.virtualenv": "Strong,HEAD"
+                }
             }
         },
-        "version": "623211ff94a59a60593d95c6dcb31ed208f93f1c"
+        "version": "b56885ed0ec8e5bab4e27931865d01cc3b4d19cb"
     },
     "pbt": {
         "packages": {
