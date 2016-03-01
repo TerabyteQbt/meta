@@ -2049,6 +2049,22 @@
     },
     "org.cmyers.examples": {
         "packages": {
+            "org.cmyers.examples.cpp.lib": {
+                "metadata": {
+                    "prefix": "cpp/lib",
+                    "qbtEnv": {
+                        "GCC": "4_X"
+                    }
+                }
+            },
+            "org.cmyers.examples.cpp.main": {
+                "metadata": {
+                    "prefix": "cpp/lib",
+                    "qbtEnv": {
+                        "GCC": "4_X"
+                    }
+                }
+            },
             "org.cmyers.examples.java.app": {
                 "metadata": {
                     "prefix": "java/app",
@@ -2153,7 +2169,7 @@
                 }
             }
         },
-        "version": "b56885ed0ec8e5bab4e27931865d01cc3b4d19cb"
+        "version": "547322f0251a0c42a29db6495ef8bc9599a72281"
     },
     "pbt": {
         "packages": {
