@@ -2047,6 +2047,16 @@
         },
         "version": "647368599cacb3d6f861fba8af430d8709538e36"
     },
+    "org.cmyers.binassist": {
+        "packages": {
+            "org.cmyers.binassist.main": {
+                "metadata": {
+                    "prefix": "main"
+                }
+            }
+        },
+        "version": "00907338c85b564734bd2a95d0e6df6332b96d96"
+    },
     "org.cmyers.public": {
         "packages": {
             "qbt.docs": {
