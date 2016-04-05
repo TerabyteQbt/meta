@@ -2047,6 +2047,9 @@
         },
         "version": "647368599cacb3d6f861fba8af430d8709538e36"
     },
+    "org.cmyers.euler": {
+        "version": "d8e9557416f6129d58a0e1982f559652d026235c"
+    },
     "pbt": {
         "packages": {
             "pbt.bin": {
