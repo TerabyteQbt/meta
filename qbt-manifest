@@ -2048,7 +2048,57 @@
         "version": "647368599cacb3d6f861fba8af430d8709538e36"
     },
     "org.cmyers.euler": {
-        "version": "d8e9557416f6129d58a0e1982f559652d026235c"
+        "packages": {
+            "org.cmyers.euler.q1": {
+                "metadata": {
+                    "prefix": "q1",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "org.cmyers.euler.q1.release": {
+                "metadata": {
+                    "prefix": "q1",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "org.cmyers.euler.q1": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
+            },
+            "org.cmyers.euler.q2": {
+                "metadata": {
+                    "prefix": "q2",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "org.cmyers.euler.q2.release": {
+                "metadata": {
+                    "prefix": "q2",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "org.cmyers.euler.q2": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
+            }
+        },
+        "version": "96e0ee8b4192b462619a672ff6dd8693455dbe20"
     },
     "pbt": {
         "packages": {
