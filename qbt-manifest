@@ -2120,6 +2120,30 @@
                     "org.cmyers.euler.q7": "Weak,HEAD",
                     "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
                 }
+            },
+            "org.cmyers.practice.lru_cache": {
+                "metadata": {
+                    "prefix": "practice/lru_cache",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "org.cmyers.practice.lru_cache.release": {
+                "metadata": {
+                    "prefix": "practice/lru_cache",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "org.cmyers.practice.lru_cache": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
             }
         },
         "version": "ffcc6b4c4062a2c896adf3de5b8101c38e3db50d"
