@@ -2096,9 +2096,33 @@
                     "org.cmyers.euler.q2": "Weak,HEAD",
                     "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
                 }
+            },
+            "org.cmyers.euler.q7": {
+                "metadata": {
+                    "prefix": "q7",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "org.cmyers.euler.q7.release": {
+                "metadata": {
+                    "prefix": "q7",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "org.cmyers.euler.q7": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
             }
         },
-        "version": "a95e7ffcca6efc94b95b98422a4ced1957dd468a"
+        "version": "77978d3790fcb903c497994f02497bbd6a5bb9ba"
     },
     "pbt": {
         "packages": {
