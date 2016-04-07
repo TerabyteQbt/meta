@@ -2048,7 +2048,39 @@
         "version": "647368599cacb3d6f861fba8af430d8709538e36"
     },
     "org.cmyers.test": {
-        "version": "555371db3fc607b309f7a66b60364515d9f9a2ed"
+        "packages": {
+            "org.cmyers.test.dependency_bucket": {
+                "metadata": {
+                    "prefix": "dependency_bucket",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.com.google.guava.guava": "Strong,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
+                    "misc1.commons.algo.main": "Strong,HEAD",
+                    "misc1.commons.concurrent.main": "Strong,HEAD",
+                    "misc1.commons.core.main": "Strong,HEAD",
+                    "misc1.commons.ph.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "org.cmyers.test.dependency_bucket.release": {
+                "metadata": {
+                    "prefix": "dependency_bucket",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "org.cmyers.test.dependency_bucket": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
+            }
+        },
+        "version": "526f43527b52a80d8479262e3dcaa4c0fa507a27"
     },
     "pbt": {
         "packages": {
