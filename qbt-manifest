@@ -2046,6 +2046,9 @@
         },
         "version": "52a69525958e9b86cf43934676d2e3c69117f829"
     },
+    "org.cmyers.test": {
+        "version": "555371db3fc607b309f7a66b60364515d9f9a2ed"
+    },
     "pbt": {
         "packages": {
             "pbt.bin": {
