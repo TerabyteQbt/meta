@@ -9,6 +9,13 @@
                     "prefix": "gradle"
                 }
             },
+            "3p.maven": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "maven"
+                }
+            },
             "mc.com.google.code.findbugs.jsr305": {
                 "metadata": {
                     "archIndependent": true,
@@ -1678,7 +1685,7 @@
                 }
             }
         },
-        "version": "a4ac9df6fde2ca3ddc12c7c35578897a9723200e"
+        "version": "cbe71c59c647203bd06155bc9308fd61e8c803b6"
     },
     "eclipse_gen": {
         "packages": {
