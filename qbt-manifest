@@ -2106,6 +2106,57 @@
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
+            "org.cmyers.examples.maven.app": {
+                "metadata": {
+                    "prefix": "maven/app",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "3p.maven": "Weak,HEAD",
+                    "org.cmyers.examples.maven.lib": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "org.cmyers.examples.maven.lib": {
+                "metadata": {
+                    "prefix": "maven/lib",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "3p.maven": "Weak,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "org.cmyers.examples.maven.release": {
+                "metadata": {
+                    "prefix": "maven/release",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "org.cmyers.examples.maven.app": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
+            },
+            "org.cmyers.examples.maven.test": {
+                "metadata": {
+                    "prefix": "maven/test",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "3p.maven": "Weak,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
+                    "org.cmyers.examples.maven.lib": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
             "org.cmyers.examples.python.app": {
                 "metadata": {
                     "prefix": "python/app",
@@ -2159,7 +2210,7 @@
                 }
             }
         },
-        "version": "b56885ed0ec8e5bab4e27931865d01cc3b4d19cb"
+        "version": "903a81ac1ca51a41ccbb7c7403ff6d6b725f17bc"
     },
     "pbt": {
         "packages": {
