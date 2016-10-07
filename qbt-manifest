@@ -2056,6 +2056,27 @@
     },
     "org.cmyers.examples": {
         "packages": {
+            "org.cmyers.examples.cpp.app": {
+                "metadata": {
+                    "prefix": "cpp/app",
+                    "qbtEnv": {
+                        "DEBUG": null,
+                        "GCC": "5_3"
+                    }
+                },
+                "normalDeps": {
+                    "org.cmyers.examples.cpp.lib": "Strong,HEAD"
+                }
+            },
+            "org.cmyers.examples.cpp.lib": {
+                "metadata": {
+                    "prefix": "cpp/lib",
+                    "qbtEnv": {
+                        "DEBUG": null,
+                        "GCC": "5_3"
+                    }
+                }
+            },
             "org.cmyers.examples.java.app": {
                 "metadata": {
                     "prefix": "java/app",
@@ -2217,7 +2238,7 @@
                 }
             }
         },
-        "version": "64516861cad40dd30c00f207673f1d205fd69b21"
+        "version": "843f8eac387046e76a07e5cf37200a1a9c81f937"
     },
     "pbt": {
         "packages": {
