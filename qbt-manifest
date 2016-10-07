@@ -2079,6 +2079,9 @@
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
                     "qbt_fringe.linter.release": "Weak,HEAD"
+                },
+                "verifyDeps": {
+                    "org.cmyers.examples.java.test/test": 1
                 }
             },
             "org.cmyers.examples.java.release": {
@@ -2130,6 +2133,9 @@
                 "normalDeps": {
                     "3p.maven": "Weak,HEAD",
                     "qbt_fringe.linter.release": "Weak,HEAD"
+                },
+                "verifyDeps": {
+                    "org.cmyers.examples.maven.test/test": 1
                 }
             },
             "org.cmyers.examples.maven.release": {
