@@ -2107,6 +2107,22 @@
                         "GPP": "5_3",
                         "GPP_EXTRA_FLAGS": null
                     }
+                },
+                "verifyDeps": {
+                    "org.cmyers.examples.cpp.test/test": 1
+                }
+            },
+            "org.cmyers.examples.cpp.test": {
+                "metadata": {
+                    "prefix": "cpp/test",
+                    "qbtEnv": {
+                        "GPP": null,
+                        "GPP_EXTRA_FLAGS": null
+                    }
+                },
+                "normalDeps": {
+                    "google_googletest.lib": "Strong,HEAD",
+                    "org.cmyers.examples.cpp.lib": "Strong,HEAD"
                 }
             },
             "org.cmyers.examples.java.app": {
@@ -2270,7 +2286,7 @@
                 }
             }
         },
-        "version": "e924cab3d4c04db8551d1c357574d83c52421a99"
+        "version": "32928e36c22ac814f2a4f81093238cbdb4859a61"
     },
     "pbt": {
         "packages": {
