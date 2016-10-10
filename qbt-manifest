@@ -2061,7 +2061,7 @@
                     "prefix": "cpp/app",
                     "qbtEnv": {
                         "DEBUG": null,
-                        "GCC": "5_3"
+                        "GPP": "5_3"
                     }
                 },
                 "normalDeps": {
@@ -2073,7 +2073,7 @@
                     "prefix": "cpp/lib",
                     "qbtEnv": {
                         "DEBUG": null,
-                        "GCC": "5_3"
+                        "GPP": "5_3"
                     }
                 }
             },
@@ -2238,7 +2238,7 @@
                 }
             }
         },
-        "version": "843f8eac387046e76a07e5cf37200a1a9c81f937"
+        "version": "e924cab3d4c04db8551d1c357574d83c52421a99"
     },
     "pbt": {
         "packages": {
