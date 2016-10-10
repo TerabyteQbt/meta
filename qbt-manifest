@@ -1720,6 +1720,38 @@
         },
         "version": "4dd9567973843abfc5deabb3cb009211286c01db"
     },
+    "google_googletest": {
+        "packages": {
+            "google_googletest.lib": {
+                "metadata": {
+                    "prefix": "qbt",
+                    "qbtEnv": {
+                        "GCC": "5_3"
+                    }
+                },
+                "normalDeps": {
+                    "google_googletest.source": "Strong,HEAD"
+                }
+            },
+            "google_googletest.source": {
+                "metadata": {
+                    "buildType": "COPY"
+                }
+            },
+            "google_googletest.test": {
+                "metadata": {
+                    "prefix": "qbt",
+                    "qbtEnv": {
+                        "GCC": "5_3"
+                    }
+                },
+                "normalDeps": {
+                    "google_googletest.source": "Strong,HEAD"
+                }
+            }
+        },
+        "version": "3b3523b35822b8b018960b878e77d3a6ba909905"
+    },
     "link_checker": {
         "packages": {
             "qbt_fringe.link_checker.main": {
