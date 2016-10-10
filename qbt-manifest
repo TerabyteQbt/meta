@@ -2092,8 +2092,8 @@
                 "metadata": {
                     "prefix": "cpp/app",
                     "qbtEnv": {
-                        "DEBUG": null,
-                        "GPP": "5_3"
+                        "GPP": "5_3",
+                        "GPP_EXTRA_FLAGS": null
                     }
                 },
                 "normalDeps": {
@@ -2104,8 +2104,8 @@
                 "metadata": {
                     "prefix": "cpp/lib",
                     "qbtEnv": {
-                        "DEBUG": null,
-                        "GPP": "5_3"
+                        "GPP": "5_3",
+                        "GPP_EXTRA_FLAGS": null
                     }
                 }
             },
