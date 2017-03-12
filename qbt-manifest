@@ -2285,5 +2285,16 @@
             }
         },
         "version": "ee34ba712732ebfdbdeddd5d77efe01eac039166"
+    },
+    "zookeeper": {
+        "packages": {
+            "zookeeper": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "cloudera"
+                }
+            }
+        },
+        "version": "3e5894eba2d42a7fb6685b3c6930a2537f1a1a65"
     }
 }
