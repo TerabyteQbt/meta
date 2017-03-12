@@ -1713,6 +1713,19 @@
         },
         "version": "4dd9567973843abfc5deabb3cb009211286c01db"
     },
+    "hadoop": {
+        "packages": {
+            "hadoop": {
+                "metadata": {
+                    "prefix": "cloudera"
+                },
+                "normalDeps": {
+                    "zookeeper": "Strong,HEAD"
+                }
+            }
+        },
+        "version": "f5ac3a339894b378f9f390b80b32b617e658759c"
+    },
     "link_checker": {
         "packages": {
             "qbt_fringe.link_checker.main": {
