@@ -1726,6 +1726,19 @@
         },
         "version": "4dd9567973843abfc5deabb3cb009211286c01db"
     },
+    "flume": {
+        "packages": {
+            "flume.ng_core": {
+                "metadata": {
+                    "prefix": "cloudera"
+                },
+                "normalDeps": {
+                    "avro": "Strong,HEAD"
+                }
+            }
+        },
+        "version": "ea83c949a00f84eddfdabe12cc4f07f9387d14f5"
+    },
     "hadoop": {
         "packages": {
             "hadoop": {
@@ -1751,6 +1764,21 @@
             }
         },
         "version": "40f966cd83dffa31c2e5e6d6ef05f60180fbcc93"
+    },
+    "hive": {
+        "packages": {
+            "hive": {
+                "metadata": {
+                    "prefix": "cloudera"
+                },
+                "normalDeps": {
+                    "hadoop": "Strong,HEAD",
+                    "parquet": "Strong,HEAD",
+                    "spark.core": "Strong,HEAD"
+                }
+            }
+        },
+        "version": "8acf6951f7d8c1bae72b61ecb73b5f5785cdbda6"
     },
     "link_checker": {
         "packages": {
@@ -1844,6 +1872,21 @@
             }
         },
         "version": "8c5e4cff154e819f9d1f9ba984bb02a3ce9843f7"
+    },
+    "lucene_solr": {
+        "packages": {
+            "solr": {
+                "metadata": {
+                    "prefix": "cloudera"
+                },
+                "normalDeps": {
+                    "hadoop": "Strong,HEAD",
+                    "sentry_base": "Strong,HEAD",
+                    "whirr": "Strong,HEAD"
+                }
+            }
+        },
+        "version": "dc29585426ee66104c6d672c7773f2138c50186d"
     },
     "mahout": {
         "packages": {
@@ -2147,6 +2190,25 @@
         },
         "version": "526f43527b52a80d8479262e3dcaa4c0fa507a27"
     },
+    "parquet_format": {
+        "packages": {
+            "parquet": {
+                "metadata": {
+                    "prefix": "cloudera"
+                },
+                "normalDeps": {
+                    "parquet_format": "Strong,HEAD",
+                    "pig": "Strong,HEAD"
+                }
+            },
+            "parquet_format": {
+                "metadata": {
+                    "prefix": "cloudera"
+                }
+            }
+        },
+        "version": "45bc42fdc454b2f7dbe2060d4d5e1cd009dbe791"
+    },
     "pbt": {
         "packages": {
             "pbt.bin": {
@@ -2175,6 +2237,19 @@
             }
         },
         "version": "df84bad7d18f3286a27bc555ff07cb5ff319e12c"
+    },
+    "pig": {
+        "packages": {
+            "pig": {
+                "metadata": {
+                    "prefix": "cloudera"
+                },
+                "normalDeps": {
+                    "avro": "Strong,HEAD"
+                }
+            }
+        },
+        "version": "0a6c367d8e917242726b4b0e2579c992f1cd50cf"
     },
     "qbt": {
         "packages": {
@@ -2309,9 +2384,36 @@
         },
         "version": "38f670bafcd259b69b2aa0ca8a6579eb07c45114"
     },
+    "sentry": {
+        "packages": {
+            "sentry": {
+                "metadata": {
+                    "prefix": "cloudera"
+                }
+            },
+            "sentry_base": {
+                "metadata": {
+                    "prefix": "cloudera"
+                },
+                "normalDeps": {
+                    "hive": "Strong,HEAD"
+                }
+            }
+        },
+        "version": "55133408996b2ec7132513788e2ea879bd93440f"
+    },
     "spark": {
         "packages": {
             "spark": {
+                "metadata": {
+                    "prefix": "cloudera"
+                },
+                "normalDeps": {
+                    "flume.ng_core": "Strong,HEAD",
+                    "hive": "Strong,HEAD"
+                }
+            },
+            "spark.core": {
                 "metadata": {
                     "prefix": "cloudera"
                 },
@@ -2320,7 +2422,27 @@
                 }
             }
         },
-        "version": "323f9d47f25c5fd6727e4fb83214a21b2f91d9aa"
+        "version": "dd917441c10487949480669b8192aec7969dd703"
+    },
+    "sqoop": {
+        "packages": {
+            "sqoop": {
+                "metadata": {
+                    "prefix": "cloudera"
+                }
+            }
+        },
+        "version": "66bde06872d2fd54010999cdbf44e650890c90d7"
+    },
+    "whirr": {
+        "packages": {
+            "whirr": {
+                "metadata": {
+                    "prefix": "cloudera"
+                }
+            }
+        },
+        "version": "1524b7add495bfde3869b8ddfbd5ac2b93274f41"
     },
     "wrapper_generator": {
         "packages": {
