@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+
+set -e
+
+# this script will place a wrapper script in the given location, or $HOME/bin/qbt if none is given
+
+source "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/common.sh"
+
+SCRIPT_PATH="$1"
+if [[ -z "$SCRIPT_PATH" ]]; then
+    SCRIPT_PATH="$HOME/bin/qbt"
+    mkdir -p "$HOME/bin"
+fi
+
+INSTALL_PREFIX="$HOME/.qbt"
+META_TOOLS_PATH="$INSTALL_PREFIX/meta-tools-$META_TOOLS_CV"
+QBT_BIN="$META_TOOLS_PATH/bin/qbt"
+
+if [[ ! -x "$QBT_BIN" ]]; then
+    echo "Downloading QBT MetaTools ($META_TOOLS_CV)..."
+    TMP_BIN="$(mktemp --suffix=.tar.gz)"
+    function cleanup {
+        rm -f $TMP_BIN
+    }
+    trap cleanup EXIT
+
+    curl -L $PUBLIC_QBT_URL > $TMP_BIN
+
+    TEST_SHA256="$(openssl sha256 $TMP_BIN | sed 's/.* //')"
+    if [[ "$TEST_SHA256" != "$META_TOOLS_SHA256" ]]; then
+        echo "ERROR: sha256 mismatch ($META_TOOLS_SHA256 does not match $TEST_SHA256)" 1>&2
+        exit 1
+    fi
+    mkdir -p $META_TOOLS_PATH
+    (cd $META_TOOLS_PATH && tar -xzf $TMP_BIN)
+fi
+
+echo "Installing symlink in $SCRIPT_PATH... make sure it is on your path"
+ln -s $QBT_BIN $SCRIPT_PATH
+
