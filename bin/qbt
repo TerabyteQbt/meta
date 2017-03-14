@@ -1,0 +1,133 @@
+#!/usr/bin/env bash
+
+set -e
+
+# USAGE: use in place or copy this script somewhere where it will be on your path.
+# modify the INSTALL_PREFIX if desired.  QBT stores caches in ~/.qbt, so that should work for most people.
+#
+# QBT DEPENDENCIES: python, jdk8, git
+# SCRIPT DEPENDENCIES: download requires curl and openssl
+#
+# Script will try to find jdk8, warn if user name/email not set.
+
+# Change these to update qbt version.
+export META_TOOLS_COMMIT="35b0ae06721e396a1ece243fa4ff94f47ea8fdcd" # the sha1 we built this from, FYI
+export META_TOOLS_CV="e8605d60e705a93c653307c425829047068ee4b1" # the CV that results (multiple commits might generate the same CV)
+export META_TOOLS_SHA256="3ed6fa685a09b981a1b8d85d7a650888c054ead50f1466399da153da9fac46f7" # this is the sha256sum of the build published - we are not bit-for-bit reproducible, so this could change if you build your own.
+
+# github is as good a hosting platform as any
+export PUBLIC_QBT_URL="https://github.com/TerabyteQbt/meta/releases/download/metatools-1489427073/meta_tools-e8605d60e705a93c653307c425829047068ee4b1.tar.gz"
+
+INSTALL_PREFIX="$HOME/.qbt"
+META_TOOLS_PATH="$INSTALL_PREFIX/meta-tools-$META_TOOLS_CV"
+QBT_BIN="$META_TOOLS_PATH/bin/qbt"
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+EXAMPLE_FILE="$SCRIPT_DIR/qbt-config.example"
+
+# install qbt if not present
+function install_qbt {
+    if [[ ! -x "$QBT_BIN" ]]; then
+        echo "Downloading QBT MetaTools ($META_TOOLS_CV)..."
+        TMP_BIN="$(mktemp).tar.gz"
+        function cleanup {
+            rm -f $TMP_BIN
+        }
+        trap cleanup EXIT
+
+        curl -L $PUBLIC_QBT_URL > $TMP_BIN
+
+        TEST_SHA256="$(openssl sha256 $TMP_BIN | sed 's/.* //')"
+        if [[ "$TEST_SHA256" != "$META_TOOLS_SHA256" ]]; then
+            echo "ERROR: sha256 mismatch ($META_TOOLS_SHA256 does not match $TEST_SHA256)" 1>&2
+            exit 1
+        fi
+        mkdir -p $META_TOOLS_PATH
+        (cd $META_TOOLS_PATH && tar -xzf $TMP_BIN)
+    fi
+}
+
+# qbt requires JAVA_HOME to be set
+# building java with qbt requires JAVA_1_8_HOME to be set
+# the qbt wrapper script will complain if JAVA_HOME is not set, but let's try to do better
+function set_java_home {
+    if [[ -z "$JAVA_HOME" ]]; then
+        if [[ "$(uname)" == "Darwin" ]]; then
+            # get java_home for a mac
+            export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
+        else
+            # try to get it from the path
+            JAVA_BIN="$(which java)"
+            JAVA_BIN_DIRNAME="$(dirname $JAVA_BIN)"
+            if [[ "$(basename $JAVA_BIN_DIRNAME)" == "bin" ]]; then
+                # this looks right
+                export JAVA_HOME="$(dirname $JAVA_BIN_DIRNAME)"
+            fi
+        fi
+
+        # if we set it ourselves, make sure it is the right version
+        if [[ ! -x "$JAVA_HOME/bin/java" ]]; then
+            echo "Error setting JAVA_HOME: '$JAVA_HOME/bin/java' not executable" 1>&2
+            exit 1
+        fi
+        if $JAVA_HOME/bin/java -version 2>&1 | head -n1 | grep -v -q 1.8; then
+            echo "Error setting JAVA_HOME: '$JAVA_HOME/bin/java' not a 1.8 JDK" 1>&2
+            exit 1
+        fi
+    fi
+
+    # use this for JAVA_1_8_HOME
+    if [[ -z "$JAVA_1_8_HOME" ]]; then
+        export JAVA_1_8_HOME=$JAVA_HOME
+    fi
+}
+
+# check to see if config file exists - if not, place one there
+function find_or_create_config_file {
+    # first, find qbt-manifest
+    SEARCH_DIR="$(pwd)"
+    while [[ ! -f "$SEARCH_DIR/qbt-manifest" ]]; do
+        if [[ -f "$SEARCH_DIR/.qbt-meta-location" ]]; then
+            NEW_SEARCH_DIR="$SEARCH_DIR/$(cat $SEARCH_DIR/.qbt-meta-location)"
+        else
+            NEW_SEARCH_DIR="$(dirname $SEARCH_DIR)"
+        fi
+        if [[ "$NEW_SEARCH_DIR" == "$SEARCH_DIR" ]]; then
+            echo "Error: could not find qbt-manifest or .qbt-meta-location while finding up" 1>&2
+            exit 1
+        fi
+        SEARCH_DIR="$NEW_SEARCH_DIR"
+    done
+
+
+    if [[ ! -f "$SEARCH_DIR/qbt-config" ]]; then
+        echo "NOTE: missing qbt-config file, copying example file in place.  New file at: $SEARCH_DIR/qbt-config"
+        cp "$EXAMPLE_FILE" "$SEARCH_DIR/qbt-config"
+    fi
+}
+
+function warn_if_git_user_not_set {
+    if [[ -n "$(git config --global user.name)" ]]; then
+        if [[ -n "$(git config --global user.email)" ]]; then
+            return
+        fi
+    fi
+    cat << EOF 1>&2
+You must configure a username and email for git.  QBT creates commits
+internally and will error out if this is not done.  To configure git, run the
+following commands:
+
+    git config --global user.name "Your Name Here"
+    git config --global user.email "yourname@example.com"
+
+EOF
+    exit 1
+}
+
+# Here is the main script.  This is what it does:
+
+warn_if_git_user_not_set
+install_qbt
+set_java_home
+find_or_create_config_file
+
+$QBT_BIN "$@"

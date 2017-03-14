@@ -1,0 +1,109 @@
+import com.google.common.collect.ImmutableList;
+import java.nio.file.Paths;
+import qbt.artifactcacher.CompoundArtifactCacher;
+import qbt.artifactcacher.LocalArtifactCacher;
+import qbt.config.CompoundQbtRemoteFinder;
+import qbt.config.FormatLocalRepoFinder;
+import qbt.config.FormatQbtRemoteFinder;
+import qbt.config.MapQbtRemoteFinder;
+import qbt.config.QbtConfig;
+import qbt.pins.SimpleLocalPinsRepo;
+import qbt.remote.FormatQbtRemote;
+import qbt.remote.GithubQbtRemote;
+import qbt.vcs.VcsRegistry;
+
+def dotQbt = Paths.get(System.getenv("HOME")).resolve(".qbt");
+def gitRemoteVcs = VcsRegistry.getRawRemoteVcs("git");
+def gitLocalVcs = gitRemoteVcs.getLocalVcs();
+
+// KNOB: set up github api token if you want to create github repos
+//def token = new File('/home/cmyers/.github-api-token').text.trim();
+
+
+return new QbtConfig(
+
+// First config argument -- where are my overrides?  My simple choice is
+// "next to meta".  LocalRepoFinder is an interface and it's entirely
+// plausible to implement it in other ways, possibly even in qbt-config
+// itself.
+     new FormatLocalRepoFinder(
+         gitLocalVcs,
+         workspaceRoot.resolve(System.getenv("NO_OVERRIDES") ? "/dev/null" : "../%r").toString(),
+     ),
+
+// Second config argument -- where are my local pins?  local pins are commits in
+// package repositories that are pointed to by the manifest.  If you push the
+// repository that the manifest file lives in to other people, they can't use it
+// unless they can also get all the commits listed in that manifest, so pins are
+// how QBT accomplishes this.
+// 
+// I put them in my home directory so they're shared between workspaces.  Since
+// this is an immutable, append-only store sharing mostly makes sense.  I notice
+// this is slightly inconsistent specification-wise: most of the rest are
+// formats and this one is root directory that it makes subdirs of.  Should
+// probably go back and change this to format.
+     new SimpleLocalPinsRepo(
+         gitRemoteVcs,
+         dotQbt.resolve("pins/v1"),
+     ),
+
+// Third config argument -- where are my remotes?  This is just a
+// programmatic mapping from mere string to full-on QbtRemote platform
+// object.
+// 
+// The first half specifies two fixed ones by name.  "origin" is my QBT
+// universe on GitHub and "amling" is keith amling's universe.
+// This means anywhere that takes a remote can be given "origin" or "amling"
+// and it will pick these guys.
+// 
+// The second half will always hit and treats the string as a format
+// string.  This means I could pass those above format string in place of
+// their short names and get the same effect, just like how you can "git fetch"
+// a git url or a remote name.
+     new CompoundQbtRemoteFinder([
+         new MapQbtRemoteFinder([
+             origin: new FormatQbtRemote(
+                 gitRemoteVcs,
+                 "https://github.com/TerabyteQbt/%r.git",
+             ),
+/* if you have a github ssh key set up, you can use this instead
+             origin: new FormatQbtRemote(
+                 gitRemoteVcs,
+                 "ssh://git@github.com/TerabyteQbt/%r.git",
+             ),
+*/
+/* KNOB: if you want to set up a github remote to autovivify repos:
+             example: new GithubQbtRemote(
+                gitRemoteVcs,
+                github_api_token,
+                "username_or_organization",
+                "optional-repo-pattern-with-%r",
+            ),
+             origin: new FormatQbtRemote(
+                 gitRemoteVcs,
+                 "ssh://git@github.com/TerabyteQbt/%r.git",
+             ),
+             amling: new FormatQbtRemote(
+                 gitRemoteVcs,
+                 "ssh://git@github.com/AmlingQbt/%r.git",
+             ),
+*/
+         ]),
+         new FormatQbtRemoteFinder(
+             gitRemoteVcs,
+         ),
+     ]),
+
+// Finally, artifact caching locations and the size of the local cache.  You can
+// probably use this unmodified.
+     new CompoundArtifactCacher(
+         System.getenv("NO_CACHE") ? ImmutableList.of() :
+         ImmutableList.of(
+             new LocalArtifactCacher(
+                 dotQbt.resolve("artifacts/v1"),
+                 25L * (1024 * 1024 * 1024)
+             ),
+         ),
+     ),
+ );
+
