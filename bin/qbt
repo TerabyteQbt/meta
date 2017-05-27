@@ -15,8 +15,13 @@ export META_TOOLS_COMMIT="35b0ae06721e396a1ece243fa4ff94f47ea8fdcd" # the sha1 w
 export META_TOOLS_CV="e8605d60e705a93c653307c425829047068ee4b1" # the CV that results (multiple commits might generate the same CV)
 export META_TOOLS_SHA256="3ed6fa685a09b981a1b8d85d7a650888c054ead50f1466399da153da9fac46f7" # this is the sha256sum of the build published - we are not bit-for-bit reproducible, so this could change if you build your own.
 
-# github is as good a hosting platform as any
-export PUBLIC_QBT_URL="https://github.com/TerabyteQbt/meta/releases/download/metatools-1489427073/meta_tools-e8605d60e705a93c653307c425829047068ee4b1.tar.gz"
+# github is as good a hosting platform as any, github user terabyte is cmyers, you can verify by keybase.io proof
+export GITHUB_URL="https://github.com/TerabyteQbt/meta/releases/download/metatools-1489427073/meta_tools-e8605d60e705a93c653307c425829047068ee4b1.tar.gz"
+# qbtbuildtool.com is run by cmyers, uses SSL, you can verify by keybase.io proof
+export QBTBUILDTOOL_URL="https://qbtbuildtool.com/meta_tools.release.tar.gz"
+
+# Set this to grab QBT from github or qbtbuildtool.com, whichever you trust more, or add your own
+export PUBLIC_QBT_URL="$QBTBUILDTOOL_URL"
 
 INSTALL_PREFIX="$HOME/.qbt"
 META_TOOLS_PATH="$INSTALL_PREFIX/meta-tools-$META_TOOLS_CV"
@@ -38,8 +43,12 @@ function install_qbt {
 
         TEST_SHA256="$(openssl sha256 $TMP_BIN | sed 's/.* //')"
         if [[ "$TEST_SHA256" != "$META_TOOLS_SHA256" ]]; then
-            echo "ERROR: sha256 mismatch ($META_TOOLS_SHA256 does not match $TEST_SHA256)" 1>&2
-            exit 1
+            if [[ -n "$I_AM_A_CLOWN_IGNORE_SECURITY" ]]; then
+                echo "ERROR: sha256 mismatch ($META_TOOLS_SHA256 does not match $TEST_SHA256) - but installing anyways!" 1>&2
+            else
+                echo "ERROR: sha256 mismatch ($META_TOOLS_SHA256 does not match $TEST_SHA256)" 1>&2
+                exit 1
+            fi
         fi
         mkdir -p $META_TOOLS_PATH
         (cd $META_TOOLS_PATH && tar -xzf $TMP_BIN)
