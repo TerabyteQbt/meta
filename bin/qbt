@@ -66,7 +66,12 @@ function set_java_home {
             export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
         else
             # try to get it from the path
-            JAVA_BIN="$(which java)"
+            if which java; then
+                JAVA_BIN="$(which java)"
+            else
+                echo "Error setting JAVA_HOME: no java on path" 1>&2
+                exit 1
+            fi
             JAVA_BIN_DIRNAME="$(dirname $JAVA_BIN)"
             if [[ "$(basename $JAVA_BIN_DIRNAME)" == "bin" ]]; then
                 # this looks right
