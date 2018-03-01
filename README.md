@@ -1,5 +1,7 @@
 # QBT Manifest Repository
 
+TerabyteQbt/meta master branch: [![Build Status](https://travis-ci.org/TerabyteQbt/meta.svg?branch=master)](https://travis-ci.org/TerabyteQbt/meta)
+
 What is this?  This repository is a QBT manifest repository.  QBT is an
 open-source dependency management and repostiory stiching tool.  Think of QBT
 as being similar to the android development tool "repo", or git with
