@@ -1813,16 +1813,18 @@
                     "archIndependent": true,
                     "prefix": "release",
                     "qbtEnv": {
-                        "JDK": "1_8"
+                        "JDK": "1_8",
+                        "RELEASE_STRING": ""
                     }
                 },
                 "normalDeps": {
                     "meta_tools.main": "Weak,HEAD",
+                    "qbt.tools.buildscripts": "Weak,HEAD",
                     "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
                 }
             }
         },
-        "version": "954470fd545b6a911b5d1ff0ebf275c8c5fdde85"
+        "version": "ad783387c00edd2f9a4165c2d7abb927c1f5e790"
     },
     "misc1": {
         "packages": {
@@ -2130,7 +2132,8 @@
                     "archIndependent": true,
                     "prefix": "app/main",
                     "qbtEnv": {
-                        "JDK": "1_8"
+                        "JDK": "1_8",
+                        "RELEASE_STRING": ""
                     }
                 },
                 "normalDeps": {
@@ -2142,6 +2145,7 @@
                     "misc1.commons.concurrent.main": "Strong,HEAD",
                     "misc1.commons.ph.main": "Strong,HEAD",
                     "qbt.bin.main": "Strong,HEAD",
+                    "qbt.tools.buildscripts": "Weak,HEAD",
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 },
                 "verifyDeps": {
@@ -2239,9 +2243,15 @@
                     "qbt.app.cmd": "Weak,HEAD",
                     "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
                 }
+            },
+            "qbt.tools.buildscripts": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "tools/buildscripts"
+                }
             }
         },
-        "version": "6b09307ffd7af1eb7810d595108de34e502e512c"
+        "version": "000a72e3229b402f55e6e174cf59e86fe72b925b"
     },
     "wrapper_generator": {
         "packages": {
