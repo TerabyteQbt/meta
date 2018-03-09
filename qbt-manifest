@@ -1822,7 +1822,7 @@
                 }
             }
         },
-        "version": "954470fd545b6a911b5d1ff0ebf275c8c5fdde85"
+        "version": "34e38d8bb58b08ac196cdc520d00acc7db7beaa5"
     },
     "misc1": {
         "packages": {
@@ -1901,6 +1901,7 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
+                    "mc.com.google.code.gson.gson": "Strong,HEAD",
                     "mc.com.google.guava.guava": "Strong,HEAD",
                     "mc.org.apache.commons.commons.lang3": "Strong,HEAD"
                 },
@@ -2044,7 +2045,7 @@
                 }
             }
         },
-        "version": "294c7586192de85fbc6b89f39710df01b7e848c9"
+        "version": "b0c01aad4c15484da6c0d2ce653988681e0baabd"
     },
     "org.cmyers.test": {
         "packages": {
@@ -2135,7 +2136,6 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
-                    "mc.com.google.code.gson.gson": "Strong,HEAD",
                     "mc.org.apache.httpcomponents.httpclient": "Strong,HEAD",
                     "mc.org.codehaus.groovy.groovy.all": "Strong,HEAD",
                     "misc1.commons.algo.main": "Strong,HEAD",
@@ -2241,7 +2241,7 @@
                 }
             }
         },
-        "version": "6b09307ffd7af1eb7810d595108de34e502e512c"
+        "version": "fb2fb36db2b10e6de78fd45f2360b8e0dd7988bf"
     },
     "wrapper_generator": {
         "packages": {
@@ -2254,35 +2254,38 @@
                     }
                 },
                 "normalDeps": {
-                    "3p.gradle": "Weak,HEAD",
-                    "mc.com.google.guava.guava": "Strong,HEAD",
-                    "qbt_fringe.linter.release": "Weak,HEAD"
+                    "3p.gradle": "Weak,HEAD"
+                },
+                "verifyDeps": {
+                    "qbt_fringe.wrapper_generator.main.lint/lint": 1
                 }
             },
-            "qbt_fringe.wrapper_generator.prerelease": {
+            "qbt_fringe.wrapper_generator.main.lint": {
                 "metadata": {
                     "archIndependent": true,
-                    "prefix": "prerelease",
+                    "prefix": ".main.lint",
                     "qbtEnv": {
                         "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
-                    "qbt_fringe.wrapper_generator.main": "Weak,HEAD",
-                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                    "qbt_fringe.linter.release": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.main": "Weak,HEAD"
                 }
             },
             "qbt_fringe.wrapper_generator.release": {
                 "metadata": {
                     "archIndependent": true,
-                    "buildType": "COPY",
                     "prefix": "release",
                     "qbtEnv": {
                         "JDK": "1_8"
                     }
+                },
+                "normalDeps": {
+                    "qbt_fringe.wrapper_generator.main": "Weak,HEAD"
                 }
             }
         },
-        "version": "ee34ba712732ebfdbdeddd5d77efe01eac039166"
+        "version": "e7ab54d2fad94b1125574651086aa1cb3d505c5a"
     }
 }
