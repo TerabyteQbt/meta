@@ -1689,7 +1689,8 @@
                     "archIndependent": true,
                     "prefix": "release",
                     "qbtEnv": {
-                        "JDK": "1_8"
+                        "JDK": "1_8",
+                        "VANITY_NAME": null
                     }
                 },
                 "normalDeps": {
@@ -1698,7 +1699,7 @@
                 }
             }
         },
-        "version": "b14df1c754669459e4800fea01972aef4c684681"
+        "version": "68401b6b26085daaa0895530bab47fe7e4f30a89"
     },
     "misc1": {
         "packages": {
@@ -1961,7 +1962,7 @@
                 }
             }
         },
-        "version": "e87e9a70232b2c4eb12e8f709b9cb87eaa63744d"
+        "version": "c778fe28154df7a2c35df6a1811e9758940f8ffa"
     },
     "org.cmyers.test": {
         "packages": {
@@ -2157,7 +2158,7 @@
                 }
             }
         },
-        "version": "32306d35330081f67c6046d4b60a3014cc7ce01a"
+        "version": "4e257aab80a080cde447d5c5958b74a881a9b8a0"
     },
     "wrapper_generator": {
         "packages": {
@@ -2170,6 +2171,8 @@
                     }
                 },
                 "normalDeps": {
+                    "mc.com.google.code.gson.gson": "Strong,HEAD",
+                    "mc.com.google.guava.guava": "Strong,HEAD",
                     "misc1.java_build_process": "Weak,HEAD"
                 },
                 "verifyDeps": {
@@ -2202,6 +2205,6 @@
                 }
             }
         },
-        "version": "1134f9e3fa5e8914503d60e4d32e6f04dce82042"
+        "version": "c7d0bfe1ceced19121e441d82f2e16e83f7d3632"
     }
 }
