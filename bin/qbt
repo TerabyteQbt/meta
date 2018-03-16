@@ -57,8 +57,10 @@ function install_qbt {
 }
 
 # qbt requires JAVA_HOME to be set
-# building java with qbt requires JAVA_1_8_HOME to be set
-# the qbt wrapper script will complain if JAVA_HOME is not set, but let's try to do better
+# building java with qbt requires JAVA_X_HOME to be set where X is "1_8" or
+# "1_9" or whatever QBT_ENV_JDK is set to.
+# the qbt wrapper script will complain if JAVA_HOME is not set, but let's try
+# to do better
 function set_java_home {
     if [[ -z "$JAVA_HOME" ]]; then
         if [[ "$(uname)" == "Darwin" ]]; then
@@ -92,7 +94,18 @@ function set_java_home {
 
     # use this for JAVA_1_8_HOME
     if [[ -z "$JAVA_1_8_HOME" ]]; then
-        export JAVA_1_8_HOME=$JAVA_HOME
+        # if java in $JAVA_HOME is a 1.8 jdk, set JAVA_1_8_HOME
+        if $JAVA_HOME/bin/java -version 2>&1 | grep -q '"1.8'; then
+            export JAVA_1_8_HOME=$JAVA_HOME
+        fi
+    fi
+
+    # use this for JAVA_1_9_HOME
+    if [[ -z "$JAVA_1_9_HOME" ]]; then
+        # if java in $JAVA_HOME is a 1.9 jdk, set JAVA_1_9_HOME
+        if $JAVA_HOME/bin/java -version 2>&1 | grep -q '"9'; then
+            export JAVA_1_9_HOME=$JAVA_HOME
+        fi
     fi
 }
 
