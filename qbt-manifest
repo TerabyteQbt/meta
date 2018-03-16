@@ -1974,13 +1974,13 @@
                     }
                 },
                 "normalDeps": {
-                    "3p.gradle": "Weak,HEAD",
                     "mc.com.google.guava.guava": "Strong,HEAD",
                     "mc.junit.junit": "Strong,HEAD",
                     "misc1.commons.algo.main": "Strong,HEAD",
                     "misc1.commons.concurrent.main": "Strong,HEAD",
                     "misc1.commons.core.main": "Strong,HEAD",
                     "misc1.commons.ph.main": "Strong,HEAD",
+                    "misc1.java_build_process": "Weak,HEAD",
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
@@ -1997,7 +1997,7 @@
                 }
             }
         },
-        "version": "526f43527b52a80d8479262e3dcaa4c0fa507a27"
+        "version": "8686d1eda3a6237dcbaaedfe7f2779b65cba7008"
     },
     "pbt": {
         "packages": {
