@@ -1,6 +1,8 @@
 language: java
 jdk:
     - oraclejdk8
+    - oraclejdk9
+    - openjdk8
 notifications:
     irc:
         channels:
@@ -14,4 +16,14 @@ cache:
     directories:
         - $HOME/.qbt
 install: ./bin/qbt fetchPins origin --all -J --logLevel=DEBUG
-script: ./bin/qbt build --all -J --logLevel=DEBUG
+script:
+    - ./bin/qbt version
+    - $JAVA_HOME/bin/java -version
+    - if [ "$TRAVIS_JDK_VERSION" == "oraclejdk9" ] || [ "$TRAVIS_JDK_VERSION" == "openjdk9" ] ; then
+       ./bin/qbt build --qbtEnv JDK=1_9 --all --verify -J --logLevel=DEBUG;
+     elif [ "$TRAVIS_JDK_VERSION" == "oraclejdk8" ] || [ "$TRAVIS_JDK_VERSION" == "openjdk8" ] ; then
+       ./bin/qbt build --qbtEnv JDK=1_8 --all --verify -J --logLevel=DEBUG;
+     else
+       echo "Unknown java version";
+       exit 1;
+     fi
