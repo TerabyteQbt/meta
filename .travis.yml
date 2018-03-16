@@ -1,0 +1,17 @@
+language: java
+jdk:
+    - oraclejdk8
+notifications:
+    irc:
+        channels:
+            - "irc.freenode.org#qbt"
+        on_success: always
+        on_failure: always
+        use_notice: true
+        skip_join: true
+
+cache:
+    directories:
+        - $HOME/.qbt
+install: ./bin/qbt fetchPins origin --all -J --logLevel=DEBUG
+script: ./bin/qbt build --all -J --logLevel=DEBUG

@@ -11,12 +11,12 @@ set -e
 # Script will try to find jdk8, warn if user name/email not set.
 
 # Change these to update qbt version.
-export META_TOOLS_COMMIT="287115b47e928f04d0dce5417ae38d1c8045b858" # the sha1 we built this from, FYI
-export META_TOOLS_CV="9104b981fd526078a212b313f1e0dded9d7618f3" # the CV that results (multiple commits might generate the same CV)
-export META_TOOLS_SHA256="48f678470cfed395ef8cc62933e869c605ff14ad35df81a517f7a783736f3949" # this is the sha256sum of the build published - we are not bit-for-bit reproducible, so this could change if you build your own.
+export META_TOOLS_COMMIT="f25b041ae527fe7b2a5c09fc1988d26f43eadd5c" # the sha1 we built this from, FYI
+export META_TOOLS_CV="03ea9468a64c3a0195b975abddf0d8e2295d7c2a" # the CV that results (multiple commits might generate the same CV)
+export META_TOOLS_SHA256="e10ca6e983c6b63509a0d5f77cbad56a8fb726ac71de309f00d0ff46f16db241" # this is the sha256sum of the build published - we are not bit-for-bit reproducible, so this could change if you build your own.
 
 # github is as good a hosting platform as any, github user terabyte is cmyers, you can verify by keybase.io proof
-export GITHUB_URL="https://github.com/TerabyteQbt/meta/releases/download/metatools-1494983480/meta_tools.release-9104b981fd526078a212b313f1e0dded9d7618f3.tar.gz"
+export GITHUB_URL="https://github.com/TerabyteQbt/meta/releases/download/metatools-1521221992/meta_tools.release-03ea9468a64c3a0195b975abddf0d8e2295d7c2a.tar.gz"
 # qbtbuildtool.com is run by cmyers, uses SSL, you can verify by keybase.io proof
 export QBTBUILDTOOL_URL="https://qbtbuildtool.com/meta_tools.release.tar.gz" # note that if you use this, the above info might be wrong, you will want to confirm it some other way
 
@@ -66,7 +66,12 @@ function set_java_home {
             export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
         else
             # try to get it from the path
-            JAVA_BIN="$(which java)"
+            if which java; then
+                JAVA_BIN="$(which java)"
+            else
+                echo "Error setting JAVA_HOME: no java on path" 1>&2
+                exit 1
+            fi
             JAVA_BIN_DIRNAME="$(dirname $JAVA_BIN)"
             if [[ "$(basename $JAVA_BIN_DIRNAME)" == "bin" ]]; then
                 # this looks right
