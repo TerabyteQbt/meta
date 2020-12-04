@@ -1331,26 +1331,26 @@
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
-            "mc.org.ow2.asm.asm.all": {
+            "mc.org.ow2.asm.asm": {
                 "metadata": {
                     "archIndependent": true,
                     "buildType": "COPY",
-                    "prefix": "mc/packages/org.ow2.asm/asm-all/src"
+                    "prefix": "mc/packages/org.ow2.asm/asm/src"
                 },
                 "verifyDeps": {
-                    "mc.org.ow2.asm.asm.all.lc/link_check": 1
+                    "mc.org.ow2.asm.asm.lc/link_check": 1
                 }
             },
-            "mc.org.ow2.asm.asm.all.lc": {
+            "mc.org.ow2.asm.asm.lc": {
                 "metadata": {
                     "archIndependent": true,
-                    "prefix": "mc/packages/org.ow2.asm/asm-all/lc",
+                    "prefix": "mc/packages/org.ow2.asm/asm/lc",
                     "qbtEnv": {
                         "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
-                    "mc.org.ow2.asm.asm.all": "Weak,HEAD",
+                    "mc.org.ow2.asm.asm": "Weak,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -1552,7 +1552,7 @@
                 }
             }
         },
-        "version": "b82ba6a83cfa0c1c8090c84efa1c5af3caea88f5"
+        "version": "fd02d71bd5c2b3b02fa602035341612358d97d6d"
     },
     "eclipse_gen": {
         "packages": {
@@ -1598,7 +1598,7 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.org.ow2.asm.asm.all": "Strong,HEAD",
+                    "mc.org.ow2.asm.asm": "Strong,HEAD",
                     "misc1.commons.options.main": "Strong,HEAD",
                     "misc1.java_build_process": "Weak,HEAD",
                     "qbt.lib.main": "Strong,HEAD",
@@ -1699,7 +1699,7 @@
                 }
             }
         },
-        "version": "68401b6b26085daaa0895530bab47fe7e4f30a89"
+        "version": "9047a7d4f7af1d634e94f2466e4fb3ebd2657d15"
     },
     "misc1": {
         "packages": {
@@ -1962,7 +1962,7 @@
                 }
             }
         },
-        "version": "c778fe28154df7a2c35df6a1811e9758940f8ffa"
+        "version": "cf783d3c43f93e2060ba445082ce71bdeed6faf0"
     },
     "org.cmyers.public": {
         "packages": {
@@ -2180,7 +2180,7 @@
                 }
             }
         },
-        "version": "4e257aab80a080cde447d5c5958b74a881a9b8a0"
+        "version": "7aa6c26cf1fd82ca9b694b574fb8f61cda675b70"
     },
     "wrapper_generator": {
         "packages": {
